@@ -1,0 +1,142 @@
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-14 16:31:58,831 [6] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-14 16:31:59,592 [6] INFO  File - {
+  "errormsg": "YB20180814163158874687145",
+  "errorcode": "1"
+}
+
+2018-08-14 16:32:00,532 [6] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-14 16:32:23,203 [40] INFO  File - Game.Web.Pay.uepay.notify_url开始
+
+2018-08-14 16:32:23,203 [40] INFO  File - memberid180838270
+
+2018-08-14 16:32:23,203 [40] INFO  File - orderidYB20180814163158874687145
+
+2018-08-14 16:32:23,203 [40] INFO  File - amount1.0000
+
+2018-08-14 16:32:23,203 [40] INFO  File - datetime20180814163223
+
+2018-08-14 16:32:23,203 [40] INFO  File - returncode00
+
+2018-08-14 16:32:23,203 [40] INFO  File - transaction_id20180814163205531015
+
+2018-08-14 16:32:23,203 [40] INFO  File - signAAD194B4DE81C7BE74D003B1CDF9A418
+
+----------------------header--------------------------
+
+2018-08-14 16:32:26,017 [8] INFO  File - Game.Web.Pay.uepay.return_url开始
+
+2018-08-14 16:32:26,017 [8] INFO  File - Md5keye5v7jgkgamcuyfxu93ac0r7zb6zfrego
+
+----------------------header--------------------------
+
+2018-08-14 16:32:26,420 [21] INFO  File - Game.Web.Pay.uepay.notify_url开始
+
+2018-08-14 16:32:26,420 [21] INFO  File - memberid180838270
+
+2018-08-14 16:32:26,421 [21] INFO  File - orderidYB20180814163158874687145
+
+2018-08-14 16:32:26,421 [21] INFO  File - amount1.0000
+
+2018-08-14 16:32:26,421 [21] INFO  File - datetime20180814163228
+
+2018-08-14 16:32:26,421 [21] INFO  File - returncode00
+
+2018-08-14 16:32:26,421 [21] INFO  File - transaction_id20180814163205531015
+
+2018-08-14 16:32:26,421 [21] INFO  File - sign83133B60121A99EA90FCDAFE04A05B66
+
+2018-08-14 16:32:27,885 [40] INFO  File - stramount=1.0000&datetime=20180814163223&memberid=180838270&orderid=YB20180814163158874687145&returncode=00&transaction_id=20180814163205531015&key=e5v7jgkgamcuyfxu93ac0r7zb6zfrego
+
+2018-08-14 16:32:31,328 [8] INFO  File - stramount=1.0000&datetime=20180814163227&memberid=180838270&orderid=YB20180814163158874687145&returncode=00&transaction_id=20180814163205531015&key=e5v7jgkgamcuyfxu93ac0r7zb6zfrego
+
+2018-08-14 16:32:31,328 [8] INFO  File - signStr5209CD5F8637C295A94923A1095B1C78
+
+2018-08-14 16:32:31,823 [21] INFO  File - stramount=1.0000&datetime=20180814163228&memberid=180838270&orderid=YB20180814163158874687145&returncode=00&transaction_id=20180814163205531015&key=e5v7jgkgamcuyfxu93ac0r7zb6zfrego
+
+2018-08-14 16:32:31,823 [21] INFO  File - signStr83133B60121A99EA90FCDAFE04A05B66
+
+2018-08-14 16:32:31,823 [21] INFO  File - 处理订单开始
+
+----------------------header--------------------------
+
+2018-08-14 16:32:31,830 [7] INFO  File - Game.Web.Pay.uepay.notify_url开始
+
+2018-08-14 16:32:31,830 [7] INFO  File - memberid180838270
+
+2018-08-14 16:32:31,830 [7] INFO  File - orderidYB20180814163158874687145
+
+2018-08-14 16:32:31,830 [7] INFO  File - amount1.0000
+
+2018-08-14 16:32:31,830 [7] INFO  File - datetime20180814163231
+
+2018-08-14 16:32:31,830 [7] INFO  File - returncode00
+
+2018-08-14 16:32:31,830 [7] INFO  File - transaction_id20180814163205531015
+
+2018-08-14 16:32:31,830 [7] INFO  File - signA9A0C882AA405D83809170E52FD70A6D
+
+----------------------header--------------------------
+
+2018-08-14 16:32:40,810 [36] INFO  File - Game.Web.Pay.uepay.notify_url开始
+
+2018-08-14 16:32:40,810 [36] INFO  File - memberid180838270
+
+2018-08-14 16:32:40,810 [36] INFO  File - orderidYB20180814163158874687145
+
+2018-08-14 16:32:40,810 [36] INFO  File - amount1.0000
+
+2018-08-14 16:32:40,810 [36] INFO  File - datetime20180814163241
+
+2018-08-14 16:32:40,810 [36] INFO  File - returncode00
+
+2018-08-14 16:32:40,810 [36] INFO  File - transaction_id20180814163205531015
+
+2018-08-14 16:32:40,810 [36] INFO  File - sign8189764CF85C75634263DA58DF063026
+
+2018-08-14 16:32:42,276 [8] INFO  File - 处理订单开始
+
+2018-08-14 16:32:42,276 [7] INFO  File - stramount=1.0000&datetime=20180814163231&memberid=180838270&orderid=YB20180814163158874687145&returncode=00&transaction_id=20180814163205531015&key=e5v7jgkgamcuyfxu93ac0r7zb6zfrego
+
+2018-08-14 16:32:42,276 [7] INFO  File - signStrA9A0C882AA405D83809170E52FD70A6D
+
+2018-08-14 16:32:42,276 [7] INFO  File - 处理订单开始
+
+2018-08-14 16:32:42,276 [36] INFO  File - stramount=1.0000&datetime=20180814163241&memberid=180838270&orderid=YB20180814163158874687145&returncode=00&transaction_id=20180814163205531015&key=e5v7jgkgamcuyfxu93ac0r7zb6zfrego
+
+2018-08-14 16:32:42,276 [36] INFO  File - signStr8189764CF85C75634263DA58DF063026
+
+2018-08-14 16:32:42,277 [36] INFO  File - 处理订单开始
+
+2018-08-14 16:32:42,290 [8] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+2018-08-14 16:32:42,290 [7] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+2018-08-14 16:32:42,290 [40] INFO  File - message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": []}
+
+2018-08-14 16:32:42,296 [36] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+2018-08-14 16:32:42,404 [21] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-14 16:38:01,080 [10] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-14 16:38:01,147 [10] INFO  File - {
+  "errormsg": "YB20180814163801085330280",
+  "errorcode": "1"
+}
+
+2018-08-14 16:38:01,147 [10] INFO  File - 2

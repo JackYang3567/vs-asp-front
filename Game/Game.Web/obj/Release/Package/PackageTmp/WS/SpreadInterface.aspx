@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SpreadInterface.aspx.cs" Inherits="Game.Web.WS.SpreadInterface" %>

@@ -1,0 +1,98 @@
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-10-22 14:35:56,603 [7] INFO  File - actiongotolibocai
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-10-22 14:37:21,283 [7] INFO  File - actiongotolibocai
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-10-22 14:37:48,326 [11] INFO  File - actiongotolibocai
+
+2018-10-22 14:37:48,326 [11] INFO  File - 开始gotolibocai
+
+2018-10-22 14:37:48,552 [11] INFO  File - ret: {"code":500,"message":"\u672a\u83b7\u53d6\u5230password"}
+
+2018-10-22 14:37:48,679 [11] INFO  File - retObj.code.Value:500
+
+2018-10-22 14:37:48,685 [11] INFO  File - 结束gotolibocai
+
+----------------------header--------------------------
+
+2018-10-22 14:38:12,668 [15] INFO  File - actiongotolibocai
+
+2018-10-22 14:38:12,668 [15] INFO  File - 开始gotolibocai
+
+2018-10-22 14:38:25,244 [15] INFO  File - ret: {"code":500,"message":"\u672a\u83b7\u53d6\u5230password"}
+
+2018-10-22 14:38:28,739 [15] INFO  File - retObj.code.Value:500
+
+2018-10-22 14:38:32,675 [15] INFO  File - 结束gotolibocai
+
+----------------------header--------------------------
+
+2018-10-22 14:40:22,461 [13] INFO  File - actiongotolibocai
+
+2018-10-22 14:40:22,461 [13] INFO  File - 开始gotolibocai
+
+2018-10-22 14:40:22,641 [13] INFO  File - ret: {"code":500,"message":"\u672a\u83b7\u53d6\u5230ip"}
+
+2018-10-22 14:40:22,641 [13] INFO  File - retObj.code.Value:500
+
+2018-10-22 14:40:22,641 [13] INFO  File - 结束gotolibocai
+
+----------------------header--------------------------
+
+2018-10-22 14:40:44,537 [30] INFO  File - actiongotolibocai
+
+2018-10-22 14:40:44,537 [30] INFO  File - 开始gotolibocai
+
+2018-10-22 14:40:57,692 [30] INFO  File - ret: {"code":500,"message":"\u672a\u83b7\u53d6\u5230ip"}
+
+2018-10-22 14:40:57,692 [30] INFO  File - retObj.code.Value:500
+
+2018-10-22 14:40:57,692 [30] INFO  File - 结束gotolibocai
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-10-22 15:25:19,657 [7] INFO  File - actiongotolibocai
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-10-22 15:25:29,500 [9] INFO  File - actiongotolibocai
+
+2018-10-22 15:25:29,500 [9] INFO  File - 开始gotolibocai
+
+2018-10-22 15:25:31,801 [9] INFO  File - ret: {"code":500,"message":"\u672a\u83b7\u53d6\u5230ip"}
+
+2018-10-22 15:25:31,964 [9] INFO  File - retObj.code.Value:500
+
+2018-10-22 15:25:31,971 [9] INFO  File - 结束gotolibocai
+
+----------------------header--------------------------
+
+2018-10-22 15:25:46,837 [11] INFO  File - actiongotolibocai
+
+2018-10-22 15:25:46,837 [11] INFO  File - 开始gotolibocai
+
+2018-10-22 15:25:46,967 [11] INFO  File - ret: {"code":200,"data":"http:\/\/m.gotogame.com.cn:81\/Public.is_ip_login.do?key=594dc4fb1b33110946157a326febd7f9","message":"\u767b\u5f55\u6210\u529f"}
+
+2018-10-22 15:25:46,970 [11] INFO  File - retObj.code.Value:200
+
+2018-10-22 15:25:46,977 [11] INFO  File - retObj.data.Value:http://m.gotogame.com.cn:81/Public.is_ip_login.do?key=594dc4fb1b33110946157a326febd7f9
+
+2018-10-22 15:25:47,010 [11] INFO  File - ex.Message:正在中止线程。

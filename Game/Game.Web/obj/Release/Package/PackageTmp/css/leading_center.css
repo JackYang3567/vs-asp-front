@@ -1,0 +1,356 @@
+﻿@charset "utf-8";
+/*遮罩的公共样式*/
+.window-mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    z-index: 105;
+}
+/*大图滚动开始*/
+#full-screen-slider { 
+	float:left; 
+	position:relative;
+	width:100%; 
+	height:498px; 
+}
+#slides { 
+	display:block; 
+	position:relative;
+	width:100%; 
+	height:498px; 
+	margin:0; 
+	padding:0; 
+	list-style:none; 
+}
+#slides li { 
+	display:block; 
+	position:absolute;
+	width:100%;
+	min-width:1200px; 
+	height:100%; 
+	margin:0; 
+	padding:0; 
+	list-style:none; 
+}
+#slides li img{
+    width: 100%;
+    height: 100%;
+}
+#slides li a { 
+	display:block; 
+	width:100%; 
+	height:100%; 
+	text-indent:-9999px;
+}
+/*banner图片滚动的圆点开始*/
+.full-screen {
+	position: absolute;
+	left: 50%;
+	top: 553px;
+	color: #b5b5b5;
+	text-align: center;
+	z-index: 1000;
+}
+.full-screen .current {
+	color: #ffaa00;
+}
+.full-screen li {
+	float: left;
+	margin-right: 5px;
+	font-size: 24px;
+	cursor: pointer;
+}
+/*banner图片滚动的圆点结束*/
+/*大图滚动结束*/
+.main {
+	width: 1200px;
+	margin: 15px auto 30px;
+}
+.main-left .sem {
+	margin: 0;
+}
+.i-goods-title {
+	height: 24px;
+	margin-top: 24px;
+	color: #333;
+	font-size: 14px;
+}
+.i-goods-title em {
+	display: inline-block;
+	margin: 0 5px;
+}
+.i-goods-title a {
+	color: #333;
+}
+.i-goods-search {
+	margin-bottom: 20px;
+	border: 1px solid #e9e9e9;
+	-webkit-user-select:none;
+}
+.main-class {
+	height: 32px;
+	line-height: 32px;
+}
+.main-class-tit {
+	float: left;
+	width: 52px;
+	margin-left: 10px;
+}
+.main-class div {
+	float: left;
+	margin-right: 10px;
+}
+.main-class div span {
+	float: left;
+	margin: 0 10px 0 5px;
+	cursor: pointer;
+}
+.main-class div em {
+	float: left;
+	margin: 0 10px 0 5px;
+}
+.subclass {
+	display: none;
+	margin: 0 10px 10px 62px;
+	border: 1px solid #e9e9e9;
+	background-color: #f7f7f7;
+}
+.subclass a,
+.subclass span {
+	float: left;
+	height: 32px;
+	margin: 0 10px 0 5px;
+	line-height: 32px;
+	color: #666;
+}
+.reservation-tit a:hover,
+.subclass a:hover,
+.main-class .active {
+	color: #fe0000;
+}
+.i-goods-list {
+	margin-right: -20px;
+}
+.index-cash-voucher {
+	overflow: hidden;
+	height: 247px;
+}
+.check-vouche {
+	margin-top: 50px;
+}
+.p-voucher {
+	float: left;
+	width: 975px;
+	background-color: #fff;
+}
+.i-goods-con {
+	float: left;
+	width: 282px;
+	margin: 0 20px 20px 0;
+	padding: 8px;
+	border: 1px solid #d9d9d9;
+	-webkit-user-select:none;
+}
+.p-voucher .i-goods-con {
+	width: 293px;
+}
+.index-voucher {
+	width: 267px;
+	margin: 20px 20px 0 0;
+}
+.i-goods-con dl {
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.i-goods-con dt {
+	float: left;
+	overflow: hidden;
+	width: 98px;
+	height: 98px;
+	border: 1px solid #edecec;
+}
+.i-goods-con dt img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.i-goods-con dd {
+	position: relative;
+	float: left;
+	margin-left: 10px;
+}
+.voucher-has-failed,
+.voucher-already-used {
+	width: 183px;
+}
+.i-goods-con dd h3 {
+	margin-top: 10px;
+	font-size: 16px;
+}
+.i-goods-con dd p {
+	margin-top: 10px;
+	font-size: 12px;
+}
+.platform {
+	color: #666;
+}
+.i-goods-con dd p em {
+	color: #fe0000;
+	font-size: 20px;
+}
+.voucher-has-failed span,
+.voucher-already-used span {
+	position: absolute;
+	right: 0;
+	bottom: -15px;
+	width: 60px;
+	height: 60px;
+	background: url("../images/already_used.png") no-repeat;
+}
+.voucher-has-failed span {
+	background: url("../images/has_failed.png") no-repeat;
+}
+.receive-con {
+	float: left;
+	width: 178px;
+}
+.index-receive {
+	width: 167px;
+	color: #333;
+	font-size: 12px;
+}
+.receive-con p {
+	line-height: 18px;
+}
+.expiring,
+.receive-con p em {
+	color: #fe0000;
+}
+.receive-btn {
+	float: left;
+	width: 100px;
+	height: 40px;
+	background: url("../images/receive_btn.png") no-repeat;
+	line-height: 40px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+}
+.already-used a,
+.receive-btn a {
+	color: #fff;
+}
+.receive-btn:hover {
+	background: url("../images/receive_btn_hover.png") no-repeat;
+}
+/*已经使用*/
+.already-used {
+	float: left;
+	width: 100px;
+	height: 40px;
+	background-color: #a5a5a5;
+	line-height: 40px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+/*个人中心--我的抵用券开始*/
+.reservation-tit {
+	height: 24px;
+	padding: 18px 0 0 10px;
+	border-bottom: 1px dashed #999999;
+	font-size: 14px;
+}
+.reservation-tit a {
+	color: #333;
+}
+.reser-sel {
+	height: 38px;
+	padding-top: 20px;
+}
+.all-sel {
+	float: left;
+	width: 80px;
+	height: 28px;
+	margin-left: 10px;
+	outline: none;
+	cursor: pointer;
+}
+.reser-sel-btn {
+	float: left;
+	width: 49px;
+	height: 28px;
+	margin: 0px 0 0 10px;
+}
+.reser-sel-btn input {
+	display: block;
+	width: 49px;
+	height: 28px;
+	border: 0;
+	background: url("../images/sel_bgc.png") no-repeat;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+/*个人中心--我的抵用券结束*/
+/*弹窗开始*/
+.i-receive-alert {
+	display: none;
+    position: fixed;
+    left: 38%;
+    top: 35%;
+    width: 456px;
+    padding-bottom: 20px;
+    border: 5px solid #a6a6a6;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+    z-index: 1100;
+}
+.i-receive-alert div {
+	height: 27px;
+	padding: 0 10px;
+	border-bottom: 1px solid #c4c4c4;
+	line-height: 27px;
+	font-size: 14px;
+}
+.i-receive-alert div h3 {
+	float: left;
+}
+.i-receive-alert div span {
+	float: right;
+    width: 14px;
+    height: 15px;
+    margin-top: 8px;
+    background: url("../images/popup_backbtn.png") no-repeat;
+    cursor: pointer;
+}
+.i-receive-alert p {
+	padding: 30px 0;
+	color: #fe0000;
+	text-align: center;
+}
+.i-receive-alert a {
+	display: block;
+	width: 135px;
+	height: 32px;
+	margin: auto;
+	background-color: #fe0000;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+/*弹窗结束*/

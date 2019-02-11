@@ -1,0 +1,388 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="#" />
+    <meta name="description" content="#" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="">
+    <title>快速充值中心</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+
+    <script src="/js/jfth5/jquery-1.8.js"></script>
+
+    <script type="text/javascript" src="/js/jfth5/swipe.tryine.min.js"></script>
+    <script type="text/javascript" src="/js/jfth5/channel.min.js"></script>
+    <script type="text/javascript" src="/js/jfth5/channel.min.js"></script>
+    <script src="js/demo.js"></script>
+
+
+</head>
+
+<body>
+
+    <form method="post" id="pay" action="/ashx/OffLinePayment.ashx">
+        <div class="bod">
+            <div class="header"><img src="/images/wap/logo.png" alt=""></div>
+            <!--焦点图 -->
+            <div id="j_imgSwipe" class="swipe">
+                <div class="swipe-wrap" data-sudaclick="imgswipe">
+                    <div class="swipe_pic"><a href="#"><img src="/images/banner/banner1.jpg" alt="banner" /> </a></div>
+                    <div class="swipe_pic"><a href="#"><img src="/images/banner/banner2.jpg" alt="banner" /> </a></div>
+                    <div class="swipe_pic"><a href="#"><img src="/images/banner/banner3.jpg" alt="banner" /> </a></div>
+                </div>
+                <ul class="swipe_num">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <!--焦点图 -->
+            <!--滚动条-->
+            <div class="td_f">
+                <p class="so_p"><img src="/images/wap/pic_1.jpg" alt="" /></p>
+                <a href="#" title="">
+                    <div class="scrollleft">
+                        <ul>
+                            <li>
+                                <marquee align="left" behavior="scroll" direction="left" loop="-1" width="100%" scrollamount="10" scrolldelay="150">
+
+                                    1、将产生的二维码保存至相册，再识别相册二维码.&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                </marquee>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+            <!--滚动条-->
+
+            <div class="f_ar">
+                <div class="f_m1">支付类型</div>
+
+                <div class="f_m2">
+                    <label for="rad_57">
+                        <p>
+                            <img src="/images/WEIXINAPP.jpg" alt="">
+                            <span>微信一键支付</span>
+                            <em>（1~50000）</em>
+                        </p>
+                        <input type="radio" name="radzhif_code" id="rad_57" tcode="WEIXINAPP" value="57" class="regular-radio" checked limitlow="500.00" limithigh="10000.00" /><label for="radio-1-2" class="showlabel"></label>
+                    </label>
+                </div>
+
+                <div class="f_m2">
+                    <label for="rad_59">
+                        <p>
+                            <img src="/images/WEIXINWAP.jpg" alt="">
+                            <span>微信扫码</span>
+                            <em>（1~50000）</em>
+                        </p>
+                        <input type="radio" name="radzhif_code" id="rad_59" tcode="WEIXINWAP" value="59" class="regular-radio" limitlow="500.00" limithigh="10000.00" /><label for="radio-1-2" class="showlabel"></label>
+                    </label>
+                </div>
+
+                <div class="f_m3" id="wx_scan" style="display:none">
+                    <img src="/images/ali-pay-qrcode.png">
+                </div>
+
+                <div class="f_m2">
+                    <label for="rad_75">
+                        <p>
+                            <img src="/images/UNIONPAYWAP.jpg" alt="">
+                            <span>银联钱包扫码</span>
+                            <em>（1~50000）</em>
+                        </p>
+                        <input type="radio" name="radzhif_code" id="rad_75" tcode="UNIONPAYWAP" value="75" class="regular-radio" limitlow="10.00" limithigh="4500.00" /><label for="radio-1-2" class="showlabel"></label>
+                    </label>
+                </div>
+                <div class="f_m3" id="union_scan" style="display:none">
+                    <img src="/images/ali-pay-qrcode.png">
+                </div>
+
+
+                <div class="f_m2">
+                    <label for="rad_58">
+                        <p>
+                            <img src="/images/ALIPAYWAP.jpg" alt="">
+                            <span>支付宝扫码</span>
+                            <em>（1~50000）</em>
+                        </p>
+                        <input type="radio" name="radzhif_code" id="rad_58" tcode="ALIPAYWAP" value="58" class="regular-radio" limitlow="10.00" limithigh="10000.00" /><label for="radio-1-2" class="showlabel"></label>
+                    </label>
+                </div>
+
+                <div class="f_m3" id="ali_scan" style="display:none">
+                    <img src="/images/ali-pay-qrcode.png">
+                </div>
+
+
+                <div class="f_m3" id="d_bank" style="display:none">
+                    <select name="radbank" id="radbank" class="select_ipt">
+                        <option value="0">请选择银行</option>
+
+                        <option value="1">工商银行</option>
+
+                        <option value="2">招商银行</option>
+
+                        <option value="3">农业银行</option>
+
+                        <option value="4">建设银行</option>
+
+                        <option value="5">北京银行</option>
+
+                        <option value="6">中国银行</option>
+
+                        <option value="7">交通银行</option>
+
+                        <option value="8">兴业银行</option>
+
+                        <option value="9">南京银行</option>
+
+                        <option value="10">民生银行</option>
+
+                        <option value="11">光大银行</option>
+
+                        <option value="12">平安银行</option>
+
+                        <option value="13">渤海银行</option>
+
+                        <option value="14">东亚银行</option>
+
+                        <option value="15">宁波银行</option>
+
+                        <option value="16">中信银行</option>
+
+                        <option value="17">广发银行</option>
+
+                        <option value="18">上海银行</option>
+
+                        <option value="19">上海浦东发展银行</option>
+
+                        <option value="20">中国邮政</option>
+
+                        <option value="21">华夏银行</option>
+
+                        <option value="22">北京农村商业银行</option>
+
+                        <option value="23">上海农商银行</option>
+
+                        <option value="43">深圳发展银行</option>
+
+                    </select>
+                </div>
+                <div class="m_at">
+                    <span>会员账号</span>
+                    <input type="text" class="select_ipt" name="username" id="username" placeholder="(填写您的会员账号，否则无法即时到账)" onpaste="return false" onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9\_]/g,'')" />
+                    <span class="copy_color"><a href="javascript:;" onclick="copyInputText('username')">复制</a> </span>
+                </div>
+                <div class="m_at">
+                    <span>确认会员账号</span>
+                    <input type="text" class="select_ipt" name="rusername" id="rusername" placeholder="(确认您的会员账号，否则无法即时到账)" onpaste="return false" onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9\_]/g,'')" />
+                    <span class="copy_color"><a href="javascript:;" onclick="copyInputText('rusername')">复制</a> </span>
+                </div>
+
+
+                <div class="m_at">
+                    <span>存款额度</span>
+                    <input type="text" class="select_ipt" name="coin" id="coin" placeholder="1-50000" onkeyup="value=this.value.replace(/\D+/g,'')" />
+                    <span class="copy_color"><a href="javascript:;" onclick="copyInputText('coin')">复制</a> </span>
+                </div>
+                <div class="m_at">
+                    <span>转账单号</span>
+                    <input type="text" class="select_ipt" name="orderid" id="orderid"  placeholder="(输入您转账单号的最后4位数字)" onkeyup="value=this.value.replace(/\D+/g,'')" />
+                    <span class="copy_color"><a href="javascript:;" onclick="copyInputText('orderid')">复制</a> </span>
+                </div>
+                <div class="m_at">
+                    <span>存款时间:</span>
+                    <input type="text" class="select_ipt" name="P_Time" id="P_Time" value="" />
+                    <span class="copy_color"><a href="javascript:;" onclick="copyInputText('P_Time')">复制</a> </span>
+                </div>
+                
+                <input type="hidden" class="select_ipt" name="PaymentType" id="PaymentType"  />
+                <div class="f_m4"><a href="javascript:;" onclick="btnOK_zf_onclick();">确认支付</a></div>
+            </div>
+            <div class="sp_n">
+                <h3>温馨提示</h3>
+                <p><span>1、</span><em>为了避免掉单情况的发生，请您在支付完成后，等待"支付成功"页面跳转出来后再关闭页面，以免掉单。</em></p>
+                <p><span>2、</span><em>支付未到账？无法支付？请<font color="#0000FF"><a target="_blank" href="" style="text-decoration: none">联系在线客服</a></font>进行咨询。</em></p>
+            </div>
+            <div class="foot">Copyright &copy;  版权所有</div>
+
+        </div>
+    </form>
+</body>
+</html>
+
+<script type="text/javascript">
+    var payLimit_low = 1;
+    var payLimit_high = 0;
+
+    function getQueryString(name) {
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) {
+            return unescape(r[2]);
+        }
+        return null;
+    }
+
+    function copyInputText(idName) {
+        var TextVal = document.getElementById(idName);
+        TextVal.select(); // 选择对象
+        document.execCommand("Copy"); // 执行浏览器复制命令
+        // alert("复制成功！");
+        return;
+    }
+
+    function rnd(n, m) {
+        var random = Math.floor(Math.random() * (m - n + 1) + n);
+        return random;
+    }
+    function getNowFormatDate() {
+        var date = new Date();
+        var seperator1 = "-";
+        var seperator2 = ":";
+        var year = date.getFullYear();
+        var month = date.getMonth() + 1;
+        var strDate = date.getDate();
+        if (month >= 1 && month <= 9) {
+            month = "0" + month;
+        }
+        if (strDate >= 0 && strDate <= 9) {
+            strDate = "0" + strDate;
+        }
+        var currentdate = year + seperator1 + month + seperator1 + strDate
+                + " " + date.getHours() + seperator2 + date.getMinutes()
+                + seperator2 + date.getSeconds();
+        return currentdate;
+    }
+
+    $(function () {
+        $("#username").val(getQueryString('account'))
+        $("#rusername").val(getQueryString('account'))
+        $("#coin").val(getQueryString('amount'))
+        var time = getNowFormatDate();
+        $('#P_Time').val(time);
+        $(".showlabel").click(function () {
+            $(this).prev().attr("checked", "true");
+            $(this).prev().change();
+        });
+        $("input[name='radzhif_code']").change(function () {
+            var code = $("input[name='radzhif_code']:checked").val();
+            var tcode = $("input[name='radzhif_code']:checked").attr("tcode");
+            // var t_id = $("input[name='radzhif_code']:checked").attr("id");
+          
+            if (code != "0") {
+              
+                if (parseInt(code) == 59) {
+                    $("#PaymentType").val(5);
+                }
+                if (parseInt(code) == 58) {
+                    $("#PaymentType").val(4);
+                }
+                var low = $("input[name='radzhif_code']:checked").attr("limitlow");
+                var high = $("input[name='radzhif_code']:checked").attr("limithigh");
+                payLimit_low = low;
+                payLimit_high = high;
+                if (high > 0) {
+                    $("#coin").attr("placeholder", low + "-" + high);
+                }
+                else {
+                    $("#coin").attr("placeholder", low + "-无上限");
+                }
+            }
+
+          
+            if (tcode == "UNIONPAYWAP") {
+                $("#d_bank").show();
+                $("#union_scan").show()
+            }
+            else {
+                $("#d_bank").hide();
+                $("#union_scan").hide();
+              
+            }
+            if (tcode == 'WEIXINWAP') {
+                $("#wx_scan").show()
+                $("#PaymentType").val(5);
+            }
+            else {
+                $("#wx_scan").hide();
+              
+            }
+
+
+            if (tcode == 'ALIPAYWAP') {
+               
+                $("#ali_scan").show()
+                $("#PaymentType").val(4);
+              
+            } else {
+                $("#ali_scan").hide();
+               
+            }
+        });
+        $("input[name='radzhif_code']").change();
+
+    })
+    function btnOK_zf_onclick() {
+        var username = $("#username").val();
+        var PerSonGuid = $("#PerSonGuid").val();
+        var coin = $("#coin").val();
+        var rusername = $("#rusername").val();
+        var bankck = $('input[name="radzhif_code"]:checked').val();
+        var VerCode = $("#VerCode").val();
+        if (username == null || username == "") {
+            alert("[提示]会员账号不能为空！");
+            return false;
+        }
+        if (rusername == null || rusername == "" || rusername != username) {
+            alert("[提示]2次会员账号输入不一致！");
+            return false;
+        }
+
+        var tcode = $("input[name='radzhif_code']:checked").attr("tcode");
+        if (tcode == "UNIONPAYWAP") {
+            if ($("#radbank").val() == "0") {
+                alert("[提示]请选择银行！");
+                return false;
+            }
+        }
+        if (coin == null || coin == "") {
+            alert("[提示]请填写存款金额！");
+            $("#coin").focus();
+            return false;
+        }
+
+        if (isNaN(coin)) {
+            alert("[提示]存款额度非有效数字！");
+            return false;
+        }
+        if (coin < parseFloat(payLimit_low)) {
+            alert("[提示]" + payLimit_low + "元以上或者" + payLimit_low + "元才能存款！");
+            $("#coin").focus();
+            return false;
+        }
+
+        if (coin > parseFloat(payLimit_high) && parseFloat(payLimit_high) > 0) {
+            alert("[提示]存款金额不能超过" + payLimit_high + "！");
+            $("#coin").focus();
+            return false;
+        }
+
+
+        if (bankck == null || bankck == "") {
+            alert("[提示]支付类型不能为空！");
+            return false;
+        }
+
+        $("#pay").submit();
+        return true;
+    }
+
+</script>

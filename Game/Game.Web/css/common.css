@@ -1,0 +1,1136 @@
+﻿@charset "utf-8";
+/* CSS reset */
+html{color:#fff;background:#1e1f21;font-family:Arial,'Microsoft YaHei','宋体';}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,strong{padding:0;margin:0;font-family:'Microsoft YaHei',Arial,'宋体';}
+img{border:0;}
+a{text-decoration:none; color:#fff; outline:none;}/*此处待添加默认链接颜色*/
+em,strong{font-style:normal;}
+em,strong,{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit; font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+body{-webkit-text-size-adjust:none;}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clearfix:after {content:"\200B"; display:block; height:0; clear:both; }
+.clearfix { *zoom:1; }
+input[type="button"], input[type="submit"], input[type="reset"] {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+strong {font-weight: normal;}
+.notice-list li,
+.sign-list div,
+.fl {float: left;}
+.fr {float: right;}
+.game-details-list>div,
+.dis-none {display: none;}
+.block {display: block;}
+.register-tit strong,
+.inline-block {display: inline-block;}
+.col-100 {width: 100%;}
+.fn-14 {font-size: 14px;}
+.fn-16 {font-size: 16px;}
+.fn-18 {font-size: 18px;}
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.inline-block{display: inline-block;}
+html,body {
+	width: 100%;
+	font-size: 12px;
+}
+.min-widths {
+	width: 1100px;
+	margin: 0 auto;
+}
+.register-main {
+	min-height: 380px;
+}
+.main {
+	width: 100%;
+	min-height: 300px;
+	margin: 40px 0 30px;
+	background: url("../images/main_bg.png") no-repeat;
+}
+/*登录start*/
+.sign-in {
+	width: 100%;
+	height: 40px;
+	background: url("../images/sign-bg.png") repeat-x;
+}
+.sign-list {
+	padding: 6px 0;
+	line-height: 28px;
+}
+.sign-in label {
+	float: left;
+	padding: 0 5px;
+}
+.code a,
+.sign-in input {
+	float: left;
+	width: 90px;
+	height: 28px;
+	border: none;
+	background-color: #17181a;
+	color: #fff;
+}
+.code a {
+	margin: 0 5px;
+}
+.sign-btn {
+	width: 67px;
+	height: 28px;
+	margin: 0 5px;
+	background-color: #f1d384;
+	border: none;
+	outline: none;
+	color: #452601;
+	font-size: 14px;
+	text-align: center;
+}
+.register-btn {
+	width: 65px;
+	height: 26px;
+	background-color: #17181a;
+	border: 1px solid #f1d384;
+	outline: none;
+	color: #f1d384;
+	text-align: center;
+}
+/*登录end*/
+/*导航栏start*/
+.nav {
+	height: 98px;
+	line-height: 98px;
+	border-bottom: 2px solid #f1d384;
+	background-color: #101112;
+}
+.nav-list img {
+	width: 240px;
+	height: 97px;
+	margin: 0 37px;
+}
+.nav-info a {
+	float: left;
+	width: 105px;
+	margin-top: 24px;
+	color: #fff;
+	text-align: center;
+}
+.nav-info em,
+.nav-info strong {
+	display: block;
+	line-height: 29px;
+	font-size: 18px;
+}
+.nav-info em {
+	font-size: 12px;
+}
+.nav-info a span {
+	display: none;
+}
+.nav-info a:hover,
+.nav-info .active {
+	color: #f1d384;
+}
+.nav-info .active span {
+	display: block;
+	width: 29px;
+	height: 15px;
+	margin: 0 auto;
+	background: url("../images/nav_arrow.png") no-repeat;
+}
+/*导航栏end*/
+/*banner 公告栏 start*/
+.banner {
+	height: 460px;
+}
+.banner img {
+	width: 100%;
+	height: 460px;
+}
+.notice {
+	width: 100%;
+	height: 46px;
+	background-color: #141414;
+	line-height: 46px;
+}
+.zc-right3,
+.index-card,
+.activity-content,
+.game-details-info,
+.register-now-btn,
+.register-list,
+.notice-info {
+	overflow: hidden;
+	width: 1100px;
+	margin: 0 auto;
+}
+.notice-pic {
+	width: 17px;
+	height: 15px;
+	margin: 15px 10px 0 0;
+	background: url("../images/notice_pic.png") no-repeat;
+}
+.notice-list {
+	position: relative;
+	overflow: hidden;
+	width: 1073px;
+	height: 46px;
+	line-height: 46px;
+}
+.notice-list ul {
+	position: absolute; 
+	left: 0;
+	top: 0;
+}
+    .notice-list li {
+        margin-right:8px;
+    }
+/*banner 公告栏 end*/
+/*热闹游戏-游戏流程start*/
+.hot-game {
+	width: 1100px;
+	height: 384px;
+	margin: 22px auto 0;
+	background: url("../images/hot_game_bg.png") no-repeat;
+	background-size: 100% 100%;
+}
+.hot-game-info {
+	overflow: hidden;
+	height: 220px;
+}
+.hot-game-tit {
+	display: block;
+	width: 251px;
+	height: 70px;
+	margin: 0 auto 28px;
+}
+.hot-game-list li {
+	width: 190px;
+	height: 220px;
+	margin-right: 12px;
+}
+.hot-game-info img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-right: 12px;
+}
+.hot-game-info a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.hot-game-r {
+	width: 281px;
+	height: 368px;
+}
+.game-flow {
+	height: 104px;
+	background: url("../images/game_flow_bg.png") no-repeat;
+	background-size: 100% 100%;
+}
+.game-flow img {
+	width: 992px;
+	height: 67px;
+	padding-top: 18px;
+}
+.trust {
+	height: 351px;
+}
+/*热闹游戏-游戏流程end*/
+/*子导航栏start*/
+.subnav {
+	background-color: #181818;
+}
+.subnav-tit {
+	width: 994px;
+	height: 84px;
+	padding-left: 106px;
+	border-bottom: 1px solid #302d24;
+	line-height: 84px;
+}
+.subnav-tit li {
+	display: inline-block;
+	width: 170px;
+	height: 40px;
+	margin-right: 64px;
+	vertical-align: middle;
+}
+.subnav-tit li span {
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.index-product {
+	background: url("../images/subnav_product.png") 0 0 no-repeat;
+}
+.index-product:hover,
+.active .index-product {
+	background: url("../images/subnav_product.png") 0 -40px no-repeat;
+}
+.index-novice {
+	background: url("../images/subnav_novice.png") 0 0 no-repeat;
+}
+.index-novice:hover,
+.active .index-novice {
+	background: url("../images/subnav_novice.png") 0 -40px no-repeat;
+}
+.index-loading {
+	background: url("../images/subnav_loading.png") 0 0 no-repeat;
+}
+.index-loading:hover,
+.active .index-loading {
+	background: url("../images/subnav_loading.png") 0 -40px no-repeat;
+}
+.index-agent {
+	background: url("../images/subnav_agent.png") 0 0 no-repeat;
+}
+.index-agent:hover,
+.active .index-agent {
+	background: url("../images/subnav_agent.png") 0 -40px no-repeat;
+}
+.subnav-list .active {
+	display: block;
+}
+.subnav-list-content {
+	margin-top: 57px;
+	padding-bottom: 40px;
+	background: url("../images/subnav_info_bg.png") no-repeat;
+	background-size: 100% 100%;
+}
+.product-list-pic {
+	width: 414px;
+	height: 289px;
+}
+.novice-list-info,
+.agent-list-info {
+	width: 347px;
+	margin: 0 20px;
+	color: #e5e5e5;
+}
+.agent-list-info h3 {
+	margin-top: 10px;
+	line-height: 28px;
+	font-size: 18px;
+}
+.agent-list-info p {
+	margin-bottom: 10px;
+	line-height: 18px;
+	color: #999;
+	text-indent: 20px;
+}
+.agent-list-pic {
+	width: 380px;
+	height: 299px;
+}
+.register-form,
+.novice-two {
+	position: relative;
+} 
+.novice-two h3 {
+	margin-top: 10px;
+	font-size: 18px;
+}
+.novice-two p {
+	min-height: 25px;
+	line-height: 16px;
+	color: #999;
+	text-indent: 20px
+}
+.service-advantage {
+	width: 246px;
+	margin-right: 20px;
+}
+.service-advantage h3 {
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.advantage-list div {
+	margin: 20px 0 10px;
+}
+.advantage-list div strong {
+	display: block;
+	font-size: 18px;
+}
+.advantage-list div span {
+	display: block;
+	color: #808080;
+}
+.advantage-list p {
+	margin-top: 12px;
+}
+.advantage-list p strong {
+	font-size: 36px;
+}
+.service-advantage img {
+	display: block;
+	width: 243px;
+	height: 3px;
+}
+/*子导航栏end*/
+.index-card {
+	height: 148px;
+	padding: 23px 0;
+}
+.index-card>img {
+	width: 1012px;
+	height: 50px;
+	margin: 20px auto;
+}
+.index-card-list {
+	width: 1060px;
+	height: 60px;
+	margin: 0 auto;
+	padding-left: 40px;
+	background-color: #181818;
+	line-height: 60px;
+	text-align: center;
+}
+.index-card-list div {
+    padding-right: 20px;
+}
+.index-card-list span {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url("../images/index_call.png") no-repeat;
+	vertical-align: middle;
+}
+.index-card-list em {
+	font-size: 14px;
+}
+.index-card-list strong {
+	color: #f1d384;
+	font-size: 16px;
+}
+.hotline span {
+	background-position: 0 0;
+}
+.qq-hotline span {
+	background-position: -32px 0;
+}
+.email-hotline span {
+	background-position: -64px 0;
+}
+.time-hotline span {
+	background-position: -96px 0;
+}
+/*尾部start*/
+.footer {
+	height: 85px;
+	padding: 22px 0;
+	background: #181818 url("../images/footer_bg.png") no-repeat;
+	background-size: 100% 100%;
+}
+.footer ul {
+    margin-bottom: 20px;
+    text-align: center;
+    border-right: 1px solid #5b5855;
+}
+.footer li {
+    display: inline-block;
+    border-right: 1px solid #5b5855;
+}
+.footer li a {
+    display: block;
+    margin: 0 10px;
+    padding: 0;
+    color: #a1a09e;
+}
+.footer p {
+	line-height: 18px;
+	text-align: center;
+}
+/*尾部end*/
+/*广告浮动start*/
+.fixed-top-map {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 140px;
+	height: 104px;
+}
+.consultation-map {
+	position: fixed;
+	right: 0;
+	top: 20%;
+	width: 148px;
+	height: 317px;
+}
+.fixed-banner-bottom {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+.fixed-banner-bottom span {
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin: -20px 0 0 165px;
+	background: url("../images/close_btn.png") no-repeat;
+}
+.fixed-banner-bottom a {
+	width: 185px;
+	height: 175px;
+}
+/*广告浮动end*/
+/*游戏下载页面start*/
+.download-banner-bg {
+	height: 586px;
+	background: url("../images/download_banner.jpg") no-repeat;
+}
+.download-banner-list {
+	width: 1070px;
+	margin: 0 auto;
+	padding: 0 65px;
+}
+.download-banner-l {
+	width: 316px;
+	margin-top: 65px;
+}
+.download-banner-l a {
+	display: block;
+	height: 94px;
+	background: url("../images/download_btn.png") 0 0 no-repeat;
+}
+.download-banner-l a:hover {
+	background-position: 0 -94px;
+}
+.download-banner-l>div {
+	width: 256px;
+	margin: 0 auto;
+	padding: 13px 25px;
+	background: url("../images/download_transparent_bg.png") no-repeat;
+	background-size: 100% 100%;
+}
+.download-cord {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto 10px;
+    background-color: #fff;
+    line-height: 250px;
+    text-align: center;
+}
+body .download-cord img {
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    vertical-align: middle;
+}
+.iOS-trust {
+	margin-top: 10px;
+	font-size: 14px;
+}
+.iOS-trust strong {
+	color: #ff1313;
+	font-weight: bold;
+}
+.iOS-trust p {
+	text-indent: 20px;
+}
+.download-banner-r {
+	width: 575px;
+	height: 493px;
+	margin-top: 60px;
+}
+.download-list {
+	width: 1070px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.download-list a {
+	width: 190px;
+	height: 220px;
+	margin: 0 10px 10px;
+}
+/*游戏下载页面end*/
+/*玩家注册页面start*/
+.register-list {
+  	background-color:rgba(0,0,0,0.2); 
+	color: #fff;
+}
+.register-info {
+	position: relative;
+	margin: 58px 0 0 145px;
+	padding-bottom: 58px;
+	border-left: 2px solid #786b46;
+}
+.register-tit {
+	color: #ffe376;
+	font-size: 18px;
+}
+.register-tit span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 40px 20px 0 -7px;
+	background: url("../images/circular.png") no-repeat;
+}
+.consent-clause,
+.register-form {
+	margin-top: 17px;
+	line-height: 32px;
+	font-size: 14px;
+}
+.register-sex,
+.register-form label {
+	width: 150px;
+	text-align: right;
+}
+.register-form select,
+.register-form input {
+	width: 300px;
+	height: 32px;
+	border: 1px solid #fff;
+	background-color: #ccc;
+	color: #1d1e20;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.btn-send-code {
+    position: absolute;
+    left: 362px;
+    top: 0px;
+    height: 100%;
+    padding: 0 10px;
+    background-color: #A48E56;
+    color: #000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.register-form p {
+    margin-left: 150px;
+    color: #ff0000;
+    font-size: 12px;
+}
+.verification-code input,
+.register-form select {
+	width: 100px;
+}
+.verification-code img {
+	width: 67px;
+	height: 32px;
+	margin-left: 10px;
+}
+.consent-clause {
+	margin-left: 130px;
+}
+.consent-clause a {
+	color: #e2c367;
+}
+.register-now-btn {
+	height: 76px;
+	background: url("../images/register_now_bg.png") no-repeat;
+	background-size: 100% 100%;
+}
+.register-now-btn input {
+	width: 209px;
+	height: 56px;
+	margin: 10px 0 0 306px;
+	border: none;
+	outline: none;
+	background: url("../images/register_now_btn.png") 0 0 no-repeat;
+	cursor: pointer;
+}
+.register-now-btn input:hover {
+	background-position: 0 -56px;
+}
+.code {
+    cursor: pointer;
+    position: absolute;
+    left: 372px;
+    top: 0;
+    width: 80px;
+    height: 32px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+/*玩家注册页面end*/
+/*游戏详情start*/
+.game-details-sidebar {
+	width: 220px;
+	margin-right: 12px;
+	background-color: #1c1d1f;
+}
+.details-sidebar-top {
+	height: 57px;
+	border-bottom: 1px solid #403b2e;
+	background: url("../images/details_sidebar_top.png") no-repeat;
+}
+.details-sidebar-bottom {
+	height: 119px;
+	background: url("../images/details_sidebar_bottom.png") no-repeat;
+}
+.game-details-sidebar li {
+	height: 55px;
+	border-left: 1px solid #252629;
+	border-right: 1px solid #252629;
+	border-bottom: 1px solid #252629;
+	line-height: 55px;
+	font-size: 18px;
+	color: #f2f2f2;
+	text-align: center;
+}
+.game-details-sidebar li:hover,
+.game-details-sidebar .active {
+	border-bottom: 1px solid #dacf85;
+	color: #dacf85;
+}
+.game-details-list {
+	width: 866px;
+	min-height: 600px;
+	border: 1px solid #252629;
+	background-color: #1c1d1f;
+}
+.details-list-tit {
+	height: 42px;
+	padding-left: 30px;
+	border-bottom: 1px solid #9c8a55;
+	background-color: #242526;
+	line-height: 42px;
+	color: #f1d384;
+	font-size: 16px;
+}
+.details-list-con {
+	margin: 30px;
+}
+/*游戏详情end*/
+/*活动专区start*/
+.activity-nav-tit {
+	height: 60px;
+	margin: 0 -1px 45px 0;
+	border-top: 1px solid #f1d384;
+	background-color: #18191b;
+	line-height: 60px;
+}
+.activity-nav-tit li {
+	position: relative;
+	width: 366px;
+	border-right: 1px dashed #443f31;
+	color: #f1d384;
+	font-size: 18px;
+	text-align: center;
+}
+.activity-nav-tit span {
+	display: none;
+	position: absolute;
+	left: 0;
+	bottom: -13px;
+	width: 366px;
+	height: 13px;
+	background: url("../images/activity_nav_bg.png") no-repeat;
+}
+.activety-list-alert,
+.activity-list-info {
+	display: none;
+}
+.activity li {
+	margin-bottom: 20px;
+}
+.activety-list-alert {
+	width: 1000px;
+	margin: 0 auto;
+}
+/*活动专区end*/
+/*合作加盟start*/
+.franchise-partner-advantage {
+	padding: 40px 0;
+	border-bottom: 1px solid #464134;
+}
+.franchise-partner-advantage img {
+	display: block;
+	width: 527px;
+	height: 33px;
+	margin: 0 auto 20px;
+}
+.franchise-partner-advantage p {
+	line-height: 20px;
+	color: #87774d;
+	font-size: 14px;
+	text-align: center;
+}
+.franchise-join-us {
+	padding: 0 20px;
+	border-bottom: 1px solid #464134;
+}
+.franchise-join-us div {
+	width: 265px;
+	height: 260px;
+	padding-top: 40px;
+	line-height: 20px;
+	color: #87774d;
+	font-size: 14px;
+	text-align: center;
+}
+.franchise-join-us div h4 {
+	margin: 10px 0;
+	color: #dcc27e;
+	font-size: 18px;
+}
+.franchise-join-us div img {
+	display: block;
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+}
+.franchise-join-us .join-us-btn {
+	width: 530px;
+}
+.franchise-join-us .join-us-btn img {
+	display: inline-block;
+	width: 423px;
+	height: 234px;
+	vertical-align: middle;
+}
+.franchise-promotion-method {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.franchise-promotion-method>div {
+	width: 530px;
+}
+.franchise-promotion-method div img {
+	display: block;
+	width: 100%;
+	height: 42px;
+}
+.franchise-promotion-info {
+	width: 445px;
+	height: 230px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #18191a;
+}
+.franchise-promotion-info h4 {
+	line-height: 20px;
+	color: #87774d;
+	font-size: 14px;
+}
+.franchise-promotion-info p {
+	line-height: 20px;
+	color: #87774d;
+	font-size: 14px;
+	text-indent: 30px;
+}
+.franchise-promotion-info span {
+	display: block;
+	margin-right: 20px;
+	text-align: right;
+}
+.franchise-promotion-info a {
+	float: right;
+	width: 143px;
+	height: 29px;
+	margin-top: 25px;
+	border: 1px solid #f1d384;
+	background-color: #251b02;
+	line-height: 29px;
+	color: #f1d384;
+	font-size: 14px;
+	text-align: center;
+}
+/*合作加盟end*/
+/*客服中心start*/
+.customer-sidebar  {
+	margin-right: 12px;
+	background-color: #1c1d1f;
+}
+.customer-sidebar li {
+	width: 218px;
+	height: 85px;
+	border-bottom: 1px solid #262729;
+}
+.about-us {
+	background: url("../images/about_us_sidebar.png") 0 0 no-repeat;
+}
+.customer-tel {
+	background: url("../images/customer_tel_sidebar.png") 0 0 no-repeat;
+}
+.customer-sidebar li:hover,
+.customer-sidebar .active {
+	background-position: 0 -85px;
+	border-bottom: 1px solid #dacf85;
+}
+.custom-tel-tit {
+	height: 350px;
+}
+.custom-tel-tit img {
+	display: block;
+	width: 724px;
+	height: 311px;
+}
+.online-qq {
+	height: 127px;
+	padding: 66px 0;
+	line-height: 127px;
+	font-size: 22px;
+}
+.online-qq div {
+	width: 336px;
+	height: 127px;
+}
+.online-info {
+	background: url("../images/online_info.png") no-repeat;
+}
+.qq-info {
+	background: url("../images/qq_info.png") no-repeat;
+}
+.online-qq a {
+	display: block;
+	height: 127px;
+	margin-left: 185px;
+	color: #cbad60;
+}
+.qq-info a {
+	margin-left: 150px;
+}
+/*客服中心end*/
+/*在线充值start*/
+.zc-right3 {
+    background-color: rgba(0,0,0,.2);
+	color: #ffdf7e;
+    font-size: 18px;
+}
+.register-list div,
+.zc-right3 div {
+    position: relative;
+}
+@media \0screen\,screen\9 {
+    .register-list,
+    .zc-right3 {
+        background-color: #000;
+        filter: Alpha(opacity=20);
+        position: static; 
+        *zoom: 1; 
+    }
+}
+.pright {
+    margin-left: 10px;
+    float: left;
+    margin-top: 45px;
+}
+.payn {
+    margin: 18px 0;
+}
+.payn a {
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+    border: 1px solid #ff0000;
+    line-height: 26px;
+    color: #ffdf7e;
+    text-align: center;
+    cursor: pointer;
+}
+.payn a:hover {
+    background-color: #fed174;
+    border: 1px solid #fed174;
+    color: #1e0e04;
+}
+.pright strong {
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+    height: 38px;
+    line-height: 38px;
+    font-weight: normal;
+}
+.pay-input {
+    width: 222px;
+    height: 32px;
+    background-color: #ccc;
+    line-height: 32px;
+    color: #000;
+}
+.payn span {
+    padding-left: 10px;
+    line-height: 38px; 
+}
+.fs-top {
+    height: 37px;
+    text-align: left;
+    padding-top: 15px;
+}
+.fs-top a {
+    display: inline-block;
+    height: 36px;
+    width: 176px;
+    margin-left: -1px;
+    border: 1px solid #525258;
+    line-height: 36px;
+    color: #edae2f;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-user-select:none;
+}
+.fs-top a:hover,
+.fs-top .acur {
+    background-color: #fff;
+    color: #000;
+}
+.fs-top a img {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0 10px 0 20px;
+    vertical-align: middle;
+}
+.banks_box {
+    width: 530px;
+    background: #fff;
+    margin-left: 196px;
+    overflow: hidden;
+    padding-bottom: 5px;
+    display: none;
+    position: relative;
+    top: 1px;
+}
+.banks {
+    width: 500px;
+    margin: 0 auto;
+}
+.banks a .bcur {
+    background: url("../images/xbank.png") no-repeat;
+}
+.banks .c1 {
+    margin: 5px;
+}
+.banks a,
+.banks a span {
+    display: block;
+    width: 115px;
+    height: 36px;
+}
+.banks a {
+    float: left;
+    margin: 5px;
+    background: url("../images/bank.jpg") no-repeat;      
+}
+
+.banks .c4 {
+    background-position: -441px 0px;
+    display: none;
+}
+.banks .c5 {
+    background-position: 0px -52px;
+}
+.banks .c6 {
+    background-position: -147px -52px;
+}
+.banks .c7 {
+    background-position: -294px -52px;
+}
+.banks .c8 {
+    background-position: -441px -52px;
+    display: none;
+}
+.banks .c9 {
+    background-position: -0px -104px;
+}
+.banks .c10 {
+    background-position: -147px -104px;
+}
+.banks .c11 {
+    background-position: -294px -104px;
+    display: none;
+}
+.banks .c13 {
+    background-position: -0px -156px;
+}
+.banks .c14 {
+    background-position: -147px -156px;
+}
+.banks .c15 {
+    background-position: -294px -156px;
+    display: none;
+}
+.banks .c16 {
+    background-position: -441px -156px;
+    display: none;
+}
+.banks .csq {
+    width: 113px;
+    height: 34px;
+    display: block;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    color: #0461b1;
+    border: 1px solid #e6e6e6;
+    display: none;
+    cursor: pointer;
+}
+.banks .czk {
+    width: 113px;
+    height: 34px;
+    display: block;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    color: #0461b1;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+}
+.ljbtn {
+    width: 163px;
+    height: 62px;
+    background: url("../images/czbtn.png") 0 0 no-repeat;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.ljbtn:hover {
+    background-position: 0 -62px;
+}
+/*在线充值end*/
+/*表单验证插件样式start*/
+body .n-default .msg-wrap .n-icon {
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+    background: url("../images/form_prompt_icon.png") no-repeat;
+}
+body .n-msg {
+	line-height: 18px;
+	color: #f1d384;
+	font-size: 14px;
+}
+/*表单验证插件样式end*/
+.game-details-list .active,
+.activity-list .active,
+.activity-nav-tit .active span {
+	display: block;
+}
+.activity-nav-tit li:hover {
+	color: #e6d5a7;
+}
+.sign-btn:hover,
+.register-btn:hover {
+	color: #fff;
+}
+.franchise-promotion-info a:hover {
+	background-color: #2f2304;
+}

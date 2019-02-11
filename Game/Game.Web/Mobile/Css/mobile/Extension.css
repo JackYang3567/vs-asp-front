@@ -1,0 +1,176 @@
+﻿@charset "utf-8";
+/* CSS reset */
+html{color:#fff;font-family:Arial,'Microsoft YaHei','宋体';}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,strong{padding:0;margin:0;font-family:'Microsoft YaHei',Arial,'宋体';}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+a{text-decoration:none; color:#00c; outline:none;}/*此处待添加默认链接颜色*/
+var,em,strong{font-style:normal;}
+address,caption,cite,code,dfn,em,strong,th,var, optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit; font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+body{-webkit-user-select:none;-webkit-text-size-adjust:none;}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clearfix:after {content:"\200B"; display:block; height:0; clear:both; }
+.clearfix { *zoom:1; }
+input[type="button"], input[type="submit"], input[type="reset"] {
+     -webkit-appearance: none;
+     border-radius: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    background: url("Image/transparent_bg.png") repeat;
+    background-size: 100% 100%;
+}
+@media only screen and (max-width: 320px) {
+    html{
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width:321px ) and (max-width: 480px) {
+    html{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width:481px ) and (max-width: 600px) {
+    html{
+        font-size: 42px;
+    }
+}
+@media only screen and (min-width:601px ) and (max-width: 719px) {
+    html{
+        font-size: 48px;
+    }
+}
+@media only screen and (min-width:720px ) and (max-width: 800px) {
+    html{
+        font-size: 55px;
+    }
+}
+@media only screen and (min-width:801px ) and (max-width: 1114px) {
+    html{
+        font-size: 75px;
+    }
+}
+@media only screen and (min-width:1115px ) and (max-width: 1199px) {
+    html{
+        font-size: 90px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 104px;
+    }
+}
+html{
+   width: 100%;
+   min-height: 100%;
+}
+.block {
+    display: block;
+}
+a{color: #fff;}
+.col-100 {width:100%;font-size: .3rem;}
+.table-width {width: 100.7%;}
+.col-49 {width: 49%;}
+.col-90 {overflow: hidden; width: 90%;margin: 0 auto;}
+.col-30 {width: 30%;}
+.col-20 {width: 20%;}
+.fl {float: left;}
+.fr {float: right;}
+.margin-l-10 {margin-left: 10%;}
+.margin-top-6 {margin-top: .6rem;}
+.margin-t-auto {margin: .5rem auto 0;}
+.margin-t-b {margin: .5rem 0;}
+.padding-t-b {padding: .5rem 0;}
+.thead-tit{color: #DDBC6C;}
+.color-red {color: #FF0300;}
+.text-l-padding {padding-left: 10px;text-align: left;}
+.img-style {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.father-table {
+    overflow: hidden;
+    border: 1px solid #F1CE74;
+    border-radius: 10px 10px;
+}
+.father-table table {
+    overflow: hidden;
+}
+td {
+    border-top: 1px solid #F1CE74;
+    border-right: 1px solid #F1CE74;
+}
+td,
+th {
+    border-right: 1px solid #F1CE74;
+    padding: 5px 0;
+    text-align: center;
+}
+.notes {
+    margin: 0 40px;
+    line-height: .4rem;
+    font-size: .25rem;
+}
+.btn input,
+.btn {
+    height: .7rem;
+    line-height: .7rem;
+}
+.btn input {
+    padding-left: .2rem;
+    border: none;
+    border-radius: 10px 10px;
+}
+.btn input,
+.btn-style {
+     border-radius: 10px 10px;
+     outline: none;
+}
+.btn-style {
+    height: 100%;
+    margin-left: 10px;
+    border: 1px solid #F1CE74;
+    background: url("../../Image/btn_bg.png") repeat;
+    color: #fff;
+}
+/*分页start*/
+.personal-page {
+    height: 1rem;
+    padding: .2rem 0;
+    text-align: center;
+    -webkit-user-select:none;
+}
+.personal-page span {
+    display: inline-block;
+    padding: .1rem .2rem;
+}
+.personal-page .page-up {
+    border-right: 1px solid #e5e5e5;
+}
+.diao,
+.page-num {
+    margin-right: 8px;
+}
+.personal-page .page-next {
+    border-left: 1px solid #e5e5e5;
+}
+.personal-page .page-show {
+    background-color: #323131;
+}
+.personal-page .noClick {
+    color: #999;
+}
+/*分页end*/

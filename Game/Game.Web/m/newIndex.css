@@ -1,0 +1,449 @@
+﻿@charset "utf-8";
+/* CSS reset */
+html{color:#cdbf89;background:#221b2d;font-family:Arial,'Microsoft YaHei','宋体';}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,strong{padding:0;margin:0;font-family:'Microsoft YaHei',Arial,'宋体';}
+img{border:0;}
+a{text-decoration:none; color:#fff; outline:none;}/*此处待添加默认链接颜色*/
+em,strong{font-style:normal;}
+em,strong,{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit; font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+body{-webkit-text-size-adjust:none;}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clearfix:after {content:"\200B"; display:block; height:0; clear:both; }
+.clearfix { *zoom:1; }
+input[type="button"], input[type="submit"], input[type="reset"] {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+@media only screen and (max-width: 320px) {
+    html{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width:321px ) and (max-width: 375px) {
+    html{
+        font-size: 45px;
+    }
+}
+@media only screen and (min-width:376px ) and (max-width: 414px) {
+    html{
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width:415px ) and (max-width: 719px) {
+    html{
+        font-size: 55px;
+    }
+}
+@media only screen and (min-width:720px ) and (max-width: 768px) {
+    html{
+        font-size: 90px;
+    }
+}
+@media only screen and (min-width:769px ) and (max-width: 1199px) {
+    html{
+        font-size: 110px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 150px;
+    }
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.agent-list-img,
+.col-100 {
+    width: 100%;
+}
+.window-mask {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+    opacity: 0.7;
+    z-index: 1001;
+}
+.wrap {
+    padding-bottom: 1.75rem;
+    font-size: .35rem;
+}
+.fl {float: left;}
+.fr {float: right;}
+.yifa-main a,
+.block {
+    display: block;
+}
+.header-bg,
+.position-relative {
+    position: relative;
+}
+.alert-info a img,
+.yifa-btn img,
+.jin-game-list img,
+.header-download-btn img,
+.dafa-download-btn img,
+.btn-items img,
+.agent-list-item img,
+.agent-list-img img,
+.main-tit img,
+.game-list-img img,
+.game-list-style img,
+.img>img,
+.header-bg img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.main-tit {
+    width: 80%;
+    margin: 0 auto;
+}
+.zhengtu-btn,
+.position-fixed {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 105;
+}
+.close-btn,
+.header-download-btn {
+    position: absolute;
+    right: 9%;
+    bottom: 0;
+    width: 40%;
+}
+.close-btn {
+    right: 0;
+    top: -10px;
+    width: 10%;
+}
+.close-btn img {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+}
+.dafa-header {
+    bottom: 5px;
+}
+.header {
+    top: 0;
+    background:rgba(28,28,28,.6);  
+}
+.btn-items {
+    bottom: 0;
+    background: rgba(28,28,28,.8);
+}
+.btn-items a {
+    width: 46%;
+    margin: .3rem 2%;
+}
+.auto-96 {
+    width: 96%;
+    margin: 0 auto;
+}
+.logo-list {
+    padding: .2rem 0;
+    font-size: .15rem;
+}
+.logo-list a:nth-child(1) {
+    width: 85%;
+}
+.logo-list a:nth-child(1).col-70,
+.dafa-header .logo-list .dafa-logo {
+    width: 70%
+}
+.col-30 {
+    width: 30%;
+}
+.logo {
+    margin-right: 2%;
+}
+.logo,
+.register-btn img {
+    display: block;
+    width: 1.1rem;
+    height: 1.1rem;
+}
+.logo-name {
+    width: 77%;
+}
+.logo-name img {
+    display: block;
+    width: 50%;
+    margin: .1rem 0;
+}
+.dafa-download-btn {
+    width: 27%;
+    margin-top: .3rem;
+}
+.register-list {
+    padding: .4rem 0 1rem;
+}
+.register-list>div {
+    position: relative;
+	width: 80%;
+    height: 1.1rem;
+	margin: 0 auto;
+}
+.register-list p {
+    line-height: .5rem;
+    font-size: .25rem;
+    text-align: center;
+}
+.register-list .download-now {
+    display: block;
+    width: 100%;
+    margin: 0;
+    line-height: .5rem;
+    color: #fff;
+    font-size: .3rem;
+    text-align: center;
+}
+.download-now a {
+    color: #ecdfae;
+}
+.register-list .button-active {
+    margin: 0 auto .2rem;
+}
+.register-list input,
+.register-list span {
+	float: left;
+	line-height: .8rem;
+}
+.register-list span {
+	width: 30%;
+	margin-right: 2%;
+	text-align: right;
+}
+.register-list input {
+	width: 60%;
+	height: .8rem;
+    padding: 0 .1rem;
+	border: 1px solid #bfb894;
+	background-color: #000;
+	border-radius: 16px 16px;
+	font-size: .32rem;
+    color: #cdbf89;
+	outline: none;
+}
+.code-pic {
+    position: absolute;
+    right: 5%;
+    top: 1px;
+    width: 30%;
+    height: .8rem;
+    background-color: #AE9F6C;
+    line-height: .8rem;
+    color: #000;
+    font-size: .2rem;
+    border-radius: 0 16px 16px 0;
+}
+.register-list .agreement {
+    position: relative;
+    width: 85%;
+    height: .6rem;
+    margin-left: 7%;
+    line-height: .3rem;
+    color: #ecdfae;
+    font-size: .3rem;
+}
+.agreement input {
+    width: .3rem;
+    height: .3rem;
+    margin: .16rem 2% 0 0;
+    border: 0;
+    background: url("images/checkboxNoSelect.png") no-repeat;
+    opacity: 0;
+    z-index: 10;
+}
+.agreement span.active {
+    background: url("images/checkboxSelect.png") no-repeat;
+    background-size: 100% 100%;
+}
+.agreement span {
+    float: left;
+    width: .3rem;
+    height: .3rem;
+    background: url("images/checkboxNoSelect.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-active {
+    display: block;
+    width: 6.5rem;
+    height: 1.2rem;
+    margin: .4rem auto;
+    background: url("images/register_btn.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-active input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+}
+.game-list-style {
+    float: left;
+    width: 28%;
+    margin: .2rem 2% .2rem 3%;
+}
+.agent-list-img,
+.game-list-img {
+    display: block;
+    width: 98%;
+    margin: .2rem auto;
+}
+.agent-list-item {
+    margin-bottom: .5rem;
+}
+.agent-join {
+    width: 16%;
+    margin-left: 2%;
+}
+.agent-list-item a:nth-child(4) {
+    margin-left: 0;
+}
+.agent-btn {
+    width: 28%;
+    margin: 0;
+}
+/*征途start*/
+.zhengtu-main a img,
+.zhengtu-main a,
+.zhengtu-main>img {
+    display: block;
+    width: 100%;
+    height: 0 auto;
+}
+.alert-info,
+.zhengtu-register-alert {
+    display: none;
+    position: fixed;
+    left: 5%;
+    top: 2rem;
+    width: 90%;
+    background-color: #23191a;
+    z-index: 1002;
+}
+.alert-info {
+    top: 4.5rem;
+    border: 1px solid #a275eb;
+    background-color: #491c91;
+    font-size: .5rem;
+}
+.alert-info p {
+    margin: 1rem auto .4rem;
+    color: #bea6e5;
+    font-size: .3rem;
+    text-align: center;
+}
+.alert-info h1 {
+    color: #fff;
+    font-size: .4rem;
+    text-align: center;
+}
+.alert-info a {
+    display: block;
+    width: 30%;
+    height: .8rem;
+    margin: .9rem auto;
+    border: 1px solid #cdbf89;
+    border-radius: 30px 30px;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .4rem;
+    color: #000;
+}
+.zhengtu-register-alert {
+    font-size: .35rem;
+}
+.alert-tit {
+    display: block;
+    width: 100%;
+    height: 1.2rem;
+    background: url("images/zhengtu_alert_tit.jpg") no-repeat;
+    background-size: 100% 100%;
+    color: #23191a;
+}
+.alert-tit h1 {
+    float: left;
+    margin: .2rem 5px 0 10px;
+    font-size: .45rem;
+    font-weight: bold;
+}
+.alert-tit span {
+    float: left;
+    margin-top: .4rem;
+    font-size: .3rem;
+}
+/*征途end*/
+.jin-downlaod-main-btn {
+    position: absolute;
+    left: 15%;
+    bottom: 3.6rem;
+    width: 70%;
+}
+.jin-downlaod-main-btn a {
+    display: block;
+}
+.jin-game-list {
+    position: absolute;
+    left: 0;
+    bottom: .2rem;
+}
+.jin-game-list a {
+    width: 25%;
+    text-align: center;
+    font-size: .3rem;
+}
+.jin-game-list dl {
+    width: 80%;
+    margin: 0 auto;
+}
+.jin-game-list dd {
+    line-height: .6rem;
+}
+.jin-footer {
+    padding: .3rem 0;
+    background-color: #111322;
+}
+.jin-footer p {
+    line-height: .6rem;
+    color: #fff;
+    font-size: .3rem;
+    text-align: center;
+}
+.yifa-btn {
+    width: 50%;
+    margin: .3rem auto;
+}
+.yifa-footer {
+    border-top: solid 2px #bda66a;
+    padding: .2rem 0 .4rem;
+    background-color: #080808;
+}
+.yifa-footer p {
+    width: 90%;
+    margin: 0 auto;
+    line-height: .5rem;
+    font-size: .3rem;
+    text-align: center;
+}

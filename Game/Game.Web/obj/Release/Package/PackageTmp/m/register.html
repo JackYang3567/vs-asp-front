@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <title>注册</title>
+    <link rel="stylesheet" href="common.css">
+    <script src="../js/jquery-1.8.3.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/register.js"></script>
+    <script src="../js/lhgdialog/lhgdialog.min.js"></script>
+</head>
+<body>
+    <form>
+        <div class="wrap">
+            <div class="header">
+                <img src="images/logo.png" alt="logo" />
+            </div>
+            <div class="main">
+                <div class="register-info">
+                    <div class="clearfix">
+                        <span class="fl">账号</span>
+                        <input type="text" value="" class="fl" name="account" id="account" maxlength="12" />
+                    </div>
+
+                    <div class="clearfix">
+                        <span class="fl">登录密码</span>
+                        <input type="password" value="" class="fl" name="pwd" id="pwd" maxlength="12" />
+                    </div>
+                    <div class="clearfix">
+                        <span class="fl">确认密码</span>
+                        <input type="password" value="" class="fl" name="pwd2" id="pwd2" maxlength="20" />
+                    </div>
+                    <div class="clearfix">
+                        <span class="fl">验证码</span>
+                        <p class="fl register-code">
+                            <input type="text" value="" name="vcode" id="vcode" maxlength="6" />
+                            <img id="code" class="code" src="/ValidateImage.aspx" onclick="this.src = this.src+ '?'" />
+                        </p>
+                    </div>
+                    <div class="agreement clearfix">
+                        <input type="checkbox" name="agreementInput" value="我已阅读并接受《博都游戏开户服务协议》" id="agreementCheckbox" checked="checked">
+                        <label for="agreementCheckbox">我已阅读并接受《博都游戏开户服务协议》</label>
+                    </div>
+                    <div class="register-btn">
+                        <div id="submitBtn">
+                            <input id="btnReg" type="button" value="" />
+                        </div>
+                        <p>注册账号后，下载游戏领取</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>Copyright @ 云鼎游戏 Reserved</p>
+                </div>
+            </div>
+            <ul class="nav">
+                <li>
+                    <a href="index.aspx">
+                        <img src="images/home.png" />
+                        <img src="images/home_active.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="activity.aspx">
+                        <img src="images/activity.png" />
+                        <img src="images/activity_active.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="service.aspx">
+                        <img src="images/service.png" />
+                        <img src="images/service_active.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="register.html">
+                        <img src="images/register.png" />
+                        <img src="images/register_active.png" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </form>
+    <script>
+        var on = 3;
+
+    </script>
+</body>
+</html>

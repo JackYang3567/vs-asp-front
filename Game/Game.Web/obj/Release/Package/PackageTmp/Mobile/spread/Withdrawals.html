@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html class="market-html" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <title>提现详情</title>
+    <link href="../Css/mobile/Extension.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="col-100 padding-t-b">
+        <div class="col-100">
+            <div class="col-90 margin-t-auto father-table">
+                <table class="table-width">
+                    <thead>
+                        <tr class="thead-tit">
+                            <th><span>提现日期</span></th>
+                            <th><span>提现单号</span></th>
+                            <th><span>提现金额</span></th>
+                            <!--<th><span>手续费</span></th>-->
+                            <th><span>状态</span></th>
+                            <th><span>备注</span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="market-list"></tbody>
+                </table>
+            </div>
+            <!-- 分页开始 -->
+            <div class="personal-page" id="upbabyPage">
+
+            </div>
+            <!-- 分页结束 -->
+        </div>
+    </div>
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../public/pagin.js"></script>
+    <script src="../../js/Common.js"></script>
+    <script>
+        var postData = {};
+        postData.pageIndex = 1;
+        postData.pageSize = 20;
+        $(function () {
+            //分页调用
+            postData.userid = GetQueryString("userid");
+            postData.signature = GetQueryString("signature");
+            postData.time = GetQueryString("time");
+            $('#upbabyPage').paging("/WS/SpreadInterface.aspx?action=GetWithdrawals", postData, pageList);
+        })
+
+        //列表渲染
+        var pageList = function (jsonData) {
+            var html = '';
+            if (jsonData != null && jsonData.length > 0) {
+                $.each(jsonData, function (i, item) {
+                    var rsn = item.RejectRsn == null ? '' : item.RejectRsn
+                    html += '<tr>' +
+                               '<td><span>' + item.ApplyDate + '</span></td>' +
+                               '<td><span>' + item.OrderID + '</span></td>' +
+                               '<td><span>' + item.RtnFee + '</span></td>' +
+                                //'<td><span>' + item.TaxFee + '</span></td>' +
+                               '<td><span>' + DealStatus(item.DealStatus) + '</span></td>' +
+                               '<td><span>' + rsn + '</span></td>' +
+                            '</tr>';
+                });
+            }
+            console.log(html);
+            $("#market-list").html(html);
+        }
+        function DealStatus(status) {
+            var statusStr = "";
+            switch (parseInt(status)) {
+                case 1:
+                    statusStr = "<font color='red'>拒绝交易</font>";
+                    break;
+                case 2:
+                    statusStr = "<font color='green'>交易成功</font>";
+                    break;
+                default:
+                    statusStr = "处理中";
+                    break;
+            }
+            return statusStr;
+        }
+    </script>
+</body>
+</html>

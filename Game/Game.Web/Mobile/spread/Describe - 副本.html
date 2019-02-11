@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html class="market-html" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <title>赚金说明</title>
+    <link href="../Css/mobile/Extension.css" rel="stylesheet" />
+    <script src="../../js/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $.post("/WS/SpreadInterface.aspx?action=GetSpreadLevCfg", {}, function (data) {
+                console.log(data);
+                var json = $.parseJSON(data);
+                var html = "";
+                $.each(json, function (i,item) {
+                    html += "<tr>";
+                    html += "<td class=\"text-l-padding\">" + item.Lev + "." + item.LName + "级</td>";
+                    if (item.MaxYj == -1)
+                        html += "<td><span>" + item.MinYJ + "业绩以上</span></td>";
+                    else
+                        html += "<td><span>" + item.MinYJ + "~" + item.MaxYj + "业绩</span></td>";
+                    html += "<td><span>每万返佣" + parseInt(item.RtnAmt) + "元</span></td>";
+                    html += "</tr>";
+                })
+                $('#market-list').html(html);
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="col-100 padding-t-b">
+        <div class="col-90 father-table">
+            <table class="table-width">
+                <thead>
+                    <tr class="thead-tit">
+                        <th><span>代理级别</span></th>
+                        <th><span>业绩额度</span></th>
+                        <th><span>返佣金额</span></th>
+                    </tr>
+                </thead>
+                <tbody id="market-list">
+                    <tr><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-90 margin-top-6">
+            <img src="../Image/gold_img.png" alt="" class="img-style" />
+        </div>
+    </div>
+</body>
+</html>

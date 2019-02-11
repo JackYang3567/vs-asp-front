@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html class="market-html" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <title>我的佣金</title>
+    <link href="../Css/mobile/Extension.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="col-100">
+        <div class="col-100">
+            <div class="col-90 margin-t-auto clearfix">
+                <div class="fl col-49 father-table">
+                    <table class="table-width">
+                        <thead>
+                            <tr class="thead-tit">
+                                <th><span>本周新增</span></th>
+                                <th><span>本月新增</span></th>
+                                <th><span>我的直属会员</span></th>
+                            </tr>
+                        </thead>
+                        <tbody id="market-list">
+                            <tr>
+                                <td><span id="hyWeekNew">0</span></td>
+                                <td><span id="hyMonthNew">0</span></td>
+                                <td><span id="hyAll">0</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="fr col-49 father-table">
+                    <table class="table-width">
+                        <thead>
+                            <tr class="thead-tit">
+                                <th><span>本周新增</span></th>
+                                <th><span>本月新增</span></th>
+                                <th><span>我的推广员</span></th>
+                            </tr>
+                        </thead>
+                        <tbody id="market-list">
+                            <tr>
+                                <td><span id="tgWeekNew">0</span></td>
+                                <td><span id="tgMonthNew">0</span></td>
+                                <td><span id="tgAll">0</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <p class="thead-tit notes">当前每万元返<span id="RtnAmt">0</span></p>
+            <p class="thead-tit notes" id="notes">您产生的业绩量达到<span id="NextYJ">0</span>即每万元返<span id="NextRtnAmt">60</span>元</p>
+        </div>
+
+        <div class="col-100">
+            <div class="col-90 margin-t-auto father-table">
+                <table class="table-width">
+                    <thead>
+                        <tr class="thead-tit">
+                            <th><span>上级推广员</span></th>
+                            <th><span>直属会员业绩</span></th>
+                            <th><span>下级推广员业绩</span></th>
+                            <!--<th><span>我的业绩</span></th>-->
+                            <th><span>本周总业绩</span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="market-list">
+                        <tr>
+                            <td><span id="parentgameid"></span></td>
+                            <td><span id="hyYj">0</span></td>
+                            <td><span id="tgYj">0</span></td>
+                            <!--<td><span id="MyYj">0</span></td>-->
+                            <td><span id="NowYj">0</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="thead-tit notes">*注：业绩=会员每次游戏中的输赢金额</p>
+        </div>
+        <div class="col-100">
+            <div class="col-90 margin-t-auto father-table">
+                <table class="table-width">
+                    <thead>
+                        <tr class="thead-tit">
+                            <th><span>直属会员佣金</span></th>
+                            <!--<th><span>扶持业绩</span></th>-->
+                            <th><span>下级推广员佣金</span></th>
+                            <th><span>本周我的佣金</span></th>
+                            <th><span>总佣金</span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="market-list">
+                        <tr>
+                            <td><span id="hyRtnFee">0</span></td>
+                            <!--<td><span id="yjbasecount">0</span></td>-->
+                            <td><span id="tgRtnFee">0</span></td>
+                            <td><span id="MyRtnFee">0</span></td>
+                            <td><span id="NowRtnFee">0</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="thead-tit notes">*注：总佣金=总业绩/10000*每万返还金额+额外获得佣金.</p>
+            <p class="thead-tit notes">我的佣金=总佣金-下级推广员佣金-直属会员佣金</p>
+        </div>
+        <div class="col-100 margin-t-b">
+            <div class="btn margin-l-10 clearfix">
+                <label class="fl">可提现的佣金：</label>
+                <input type="number" class="fl col-30" id="RtnFee" value="0" />
+                <button class="fl col-20 btn-style" id="btnBalance">提现</button>
+            </div>
+            <p class="thead-tit notes">*注：申请提现后需要人工审核，预计3~5分钟内到账。</p>
+            <p class="thead-tit notes">提现收取<span id="CounterFee">1</span>%的手续费，最低<span id="MinCounterFee">1</span>元。</p>
+        </div>
+
+    </div>
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/Common.js"></script>
+    <script>
+        $(function () {
+            var userid = GetQueryString("userid");
+            var signature = GetQueryString("signature");
+            var time = GetQueryString("time");
+            var rtnFee = 0;
+            $.ajaxSettings.async = false;
+            $.get("/WS/SpreadInterface.aspx?action=GetMySpread", { userid: userid, signature: signature, time: time }, function (data) {
+                var json = $.parseJSON(data);
+                if (json.Code > 0) {
+                    alert(json.Msg);
+                    return false;
+                }
+                var item = json.Data[0];
+
+                for (var key in item) {
+                    if (key == "RtnFee") {
+                        rtnFee = item[key];
+                        $('#' + key).val(item[key]);
+                    }
+                    else {
+                        if (key == "CounterFee")
+                            $('#' + key).text(parseInt(item[key] * 100));
+                        else
+                            $('#' + key).text(item[key]);
+                    }
+                }
+                if (item["RtnAmt"] == item["NextRtnAmt"]) {
+                    $('#notes').html("您的佣金已是最高等级");
+                }
+            });
+            $('#btnBalance').click(function () {
+                var rtnFee2 = $("#RtnFee").val();
+                $.post("/WS/SpreadInterface.aspx?action=Balance", { userid: userid, rtnFee: rtnFee2 }, function (data) {
+                    var json = $.parseJSON(data);
+                    alert(json.Msg);
+                    if (json.Code == 0) {
+                        $("#RtnFee").val(rtnFee - rtnFee2)
+                    }
+                })
+            })
+        })
+
+    </script>
+    <script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?8ee3ec23e73c6dcda2c7c9c489c151aa";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</body>
+</html>

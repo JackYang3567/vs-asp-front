@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{1C645EE9-45FA-4FD6-97FD-7F835E7C2FD4}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Game.Facade</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Game.Facade</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountsFacade.cs" />
+    <Compile Include="AjaxJson.cs" />
+    <Compile Include="AjaxJsonValid.cs" />
+    <Compile Include="AppConfig.cs" />
+    <Compile Include="CacheHelper.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="ConventDataTableToJson.cs" />
+    <Compile Include="DataStruct\MobileAwardOrder.cs" />
+    <Compile Include="DataStruct\MobileBankData.cs" />
+    <Compile Include="DataStruct\MobilePayRecordData.cs" />
+    <Compile Include="DataStruct\MobileRecordInsure.cs" />
+    <Compile Include="DataStruct\UserGameInfoRank.cs" />
+    <Compile Include="DataStruct\UserScoreRank.cs" />
+    <Compile Include="DES.cs" />
+    <Compile Include="Encrypt.cs" />
+    <Compile Include="FacadeManage.cs" />
+    <Compile Include="Fetch.cs" />
+    <Compile Include="GameMatchFacade.cs" />
+    <Compile Include="HttpHelper.cs" />
+    <Compile Include="InputDataValidate.cs" />
+    <Compile Include="Jiami.cs" />
+    <Compile Include="JsonHelper.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="MobileNotice.cs" />
+    <Compile Include="NativeWebFacade.cs" />
+    <Compile Include="NetLog.cs" />
+    <Compile Include="PasswordCard.cs" />
+    <Compile Include="PayHelper.cs" />
+    <Compile Include="PlatformFacade.cs" />
+    <Compile Include="RecordFacade.cs" />
+    <Compile Include="TreasureFacade.cs" />
+    <Compile Include="UCPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebApiHepler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Game.Data.csproj">
+      <Project>{8cc1d456-166a-4739-a2cb-bc5bd4ef8a93}</Project>
+      <Name>Game.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Game.Entity.csproj">
+      <Project>{0ecdfe9a-9137-46a6-920a-663591950e5e}</Project>
+      <Name>Game.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IData\Game.IData.csproj">
+      <Project>{493f64af-717a-4126-981d-1d267cad3132}</Project>
+      <Name>Game.IData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kernel\Game.Kernel.csproj">
+      <Project>{80499c91-3d81-428a-8fa7-fb178575fc55}</Project>
+      <Name>Game.Kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils\Game.Utils.csproj">
+      <Project>{a3e5a3f5-0608-4ec9-a607-a540adf6fe7f}</Project>
+      <Name>Game.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

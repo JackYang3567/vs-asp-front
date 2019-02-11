@@ -1,0 +1,1094 @@
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 13:41:05,173 [7] INFO  File - 没有价格列表
+
+2018-08-24 13:41:05,173 [8] INFO  File - 没有价格列表
+
+2018-08-24 13:41:05,183 [7] INFO  File - Bilv1
+
+2018-08-24 13:41:05,183 [8] INFO  File - Bilv1
+
+2018-08-24 13:41:05,183 [8] INFO  File - CardGold1
+
+2018-08-24 13:41:05,183 [7] INFO  File - CardGold1
+
+2018-08-24 13:41:05,183 [8] DEBUG File - CardGold=1
+
+2018-08-24 13:41:05,183 [7] DEBUG File - CardGold=1
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 13:41:05,563 [8] INFO  File - {
+  "errormsg": "YB20180824134105385118076",
+  "errorcode": "1"
+}
+
+2018-08-24 13:41:05,563 [7] INFO  File - {
+  "errormsg": "YB20180824134105303155685",
+  "errorcode": "1"
+}
+
+2018-08-24 13:41:05,563 [7] INFO  File - 2
+
+2018-08-24 13:41:05,563 [8] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-24 13:42:14,060 [16] INFO  File - 没有价格列表
+
+2018-08-24 13:42:14,060 [16] INFO  File - Bilv1
+
+2018-08-24 13:42:14,060 [16] INFO  File - CardGold1
+
+2018-08-24 13:42:14,060 [16] DEBUG File - CardGold=1
+
+----------------------header--------------------------
+
+2018-08-24 13:42:14,106 [16] INFO  File - {
+  "errormsg": "YB20180824134214080807022",
+  "errorcode": "1"
+}
+
+2018-08-24 13:42:14,106 [16] INFO  File - 2
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 13:42:43,971 [14] INFO  File - 没有价格列表
+
+2018-08-24 13:42:43,979 [14] INFO  File - Bilv1
+
+2018-08-24 13:42:43,980 [14] INFO  File - CardGold1
+
+2018-08-24 13:42:43,980 [14] DEBUG File - CardGold=1
+
+----------------------header--------------------------
+
+2018-08-24 13:42:44,285 [14] INFO  File - {
+  "errormsg": "YB20180824134244080617871",
+  "errorcode": "1"
+}
+
+2018-08-24 13:42:44,285 [14] INFO  File - 2
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 13:45:09,124 [17] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 13:45:09,354 [17] INFO  File - {
+  "errormsg": "YB20180824134509152056518",
+  "errorcode": "1"
+}
+
+2018-08-24 13:45:09,355 [17] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-24 13:53:20,356 [22] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 13:53:20,390 [22] INFO  File - {
+  "errormsg": "YB20180824135320372437050",
+  "errorcode": "1"
+}
+
+2018-08-24 13:53:20,390 [22] INFO  File - 2
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 14:53:11,723 [6] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 14:53:12,452 [6] INFO  File - {
+  "errormsg": "YB20180824145312059530882",
+  "errorcode": "1"
+}
+
+2018-08-24 14:53:12,452 [6] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-24 14:54:22,105 [8] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 14:54:22,274 [8] INFO  File - {
+  "errormsg": "YB20180824145422192482101",
+  "errorcode": "1"
+}
+
+2018-08-24 14:54:22,274 [8] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-24 15:00:53,079 [16] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:00:53,079 [16] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:00:53,079 [16] INFO  File - productName1
+
+2018-08-24 15:00:53,079 [16] INFO  File - productType20000203
+
+2018-08-24 15:00:53,079 [16] INFO  File - orderPrice2.00
+
+2018-08-24 15:00:53,079 [16] INFO  File - orderTime20180824150025
+
+2018-08-24 15:00:53,079 [16] INFO  File - outTradeNoYB20180824150025388801444
+
+2018-08-24 15:00:53,079 [16] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:00:53,079 [16] INFO  File - trxNoSF77772018082410152269
+
+2018-08-24 15:00:53,079 [16] INFO  File - successTime20180824150059
+
+2018-08-24 15:00:53,079 [16] INFO  File - remark1
+
+2018-08-24 15:00:53,079 [16] INFO  File - sign 7D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:00:53,079 [16] INFO  File - strorderPrice=2.00&orderTime=20180824150025&outTradeNo=YB20180824150025388801444&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824150059&tradeStatus=SUCCESS&trxNo=SF77772018082410152269&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:00:53,079 [16] INFO  File - sign7D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:00:53,079 [16] INFO  File - sign17D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:00:53,079 [16] INFO  File - 处理订单开始
+
+2018-08-24 15:00:53,132 [16] INFO  File - message{  "MessageID": 1,  "Success": false,  "Content": "抱歉！充值订单不存在。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:00:54,703 [28] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:00:54,703 [28] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:00:54,703 [28] INFO  File - productName1
+
+2018-08-24 15:00:54,703 [28] INFO  File - productType20000203
+
+2018-08-24 15:00:54,703 [28] INFO  File - orderPrice2.00
+
+2018-08-24 15:00:54,703 [28] INFO  File - orderTime20180824150025
+
+2018-08-24 15:00:54,703 [28] INFO  File - outTradeNoYB20180824150025388801444
+
+2018-08-24 15:00:54,703 [28] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:00:54,703 [28] INFO  File - trxNoSF77772018082410152269
+
+2018-08-24 15:00:54,703 [28] INFO  File - successTime20180824150059
+
+----------------------header--------------------------
+
+2018-08-24 15:01:03,700 [25] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:01:03,700 [25] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:01:03,700 [25] INFO  File - productName1
+
+2018-08-24 15:01:03,700 [25] INFO  File - productType20000203
+
+2018-08-24 15:01:03,700 [25] INFO  File - orderPrice2.00
+
+2018-08-24 15:01:03,700 [25] INFO  File - orderTime20180824150025
+
+2018-08-24 15:01:03,700 [25] INFO  File - outTradeNoYB20180824150025388801444
+
+2018-08-24 15:01:03,700 [25] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:01:03,700 [25] INFO  File - trxNoSF77772018082410152269
+
+2018-08-24 15:01:03,700 [25] INFO  File - successTime20180824150059
+
+2018-08-24 15:01:03,700 [25] INFO  File - remark1
+
+2018-08-24 15:01:03,700 [25] INFO  File - sign 7D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:03,700 [25] INFO  File - strorderPrice=2.00&orderTime=20180824150025&outTradeNo=YB20180824150025388801444&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824150059&tradeStatus=SUCCESS&trxNo=SF77772018082410152269&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:01:03,700 [25] INFO  File - sign7D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:03,700 [25] INFO  File - sign17D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:03,700 [25] INFO  File - 处理订单开始
+
+2018-08-24 15:01:03,706 [25] INFO  File - message{  "MessageID": 1,  "Success": false,  "Content": "抱歉！充值订单不存在。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:01:14,107 [6] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:01:14,107 [6] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:01:14,107 [6] INFO  File - productName1
+
+2018-08-24 15:01:14,107 [6] INFO  File - productType20000203
+
+2018-08-24 15:01:14,107 [6] INFO  File - orderPrice2.00
+
+2018-08-24 15:01:14,107 [6] INFO  File - orderTime20180824150025
+
+2018-08-24 15:01:14,107 [6] INFO  File - outTradeNoYB20180824150025388801444
+
+2018-08-24 15:01:14,107 [6] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:01:14,107 [6] INFO  File - trxNoSF77772018082410152269
+
+2018-08-24 15:01:14,107 [6] INFO  File - successTime20180824150059
+
+2018-08-24 15:01:14,107 [6] INFO  File - remark1
+
+2018-08-24 15:01:14,107 [6] INFO  File - sign 7D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:14,107 [6] INFO  File - strorderPrice=2.00&orderTime=20180824150025&outTradeNo=YB20180824150025388801444&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824150059&tradeStatus=SUCCESS&trxNo=SF77772018082410152269&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:01:14,107 [6] INFO  File - sign7D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:14,107 [6] INFO  File - sign17D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:14,107 [6] INFO  File - 处理订单开始
+
+2018-08-24 15:01:14,113 [6] INFO  File - message{  "MessageID": 1,  "Success": false,  "Content": "抱歉！充值订单不存在。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:01:24,560 [6] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:01:24,560 [6] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:01:24,560 [6] INFO  File - productName1
+
+2018-08-24 15:01:24,560 [6] INFO  File - productType20000203
+
+2018-08-24 15:01:24,560 [6] INFO  File - orderPrice2.00
+
+2018-08-24 15:01:24,560 [6] INFO  File - orderTime20180824150025
+
+2018-08-24 15:01:24,560 [6] INFO  File - outTradeNoYB20180824150025388801444
+
+2018-08-24 15:01:24,560 [6] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:01:24,560 [6] INFO  File - trxNoSF77772018082410152269
+
+2018-08-24 15:01:24,560 [6] INFO  File - successTime20180824150059
+
+2018-08-24 15:01:24,560 [6] INFO  File - remark1
+
+2018-08-24 15:01:24,560 [6] INFO  File - sign 7D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:24,560 [6] INFO  File - strorderPrice=2.00&orderTime=20180824150025&outTradeNo=YB20180824150025388801444&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824150059&tradeStatus=SUCCESS&trxNo=SF77772018082410152269&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:01:24,560 [6] INFO  File - sign7D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:24,560 [6] INFO  File - sign17D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:24,560 [6] INFO  File - 处理订单开始
+
+2018-08-24 15:01:24,565 [6] INFO  File - message{  "MessageID": 1,  "Success": false,  "Content": "抱歉！充值订单不存在。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:01:34,962 [27] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:01:34,962 [27] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:01:34,962 [27] INFO  File - productName1
+
+2018-08-24 15:01:34,962 [27] INFO  File - productType20000203
+
+2018-08-24 15:01:34,962 [27] INFO  File - orderPrice2.00
+
+2018-08-24 15:01:34,962 [27] INFO  File - orderTime20180824150025
+
+2018-08-24 15:01:34,962 [27] INFO  File - outTradeNoYB20180824150025388801444
+
+2018-08-24 15:01:34,962 [27] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:01:34,962 [27] INFO  File - trxNoSF77772018082410152269
+
+2018-08-24 15:01:34,962 [27] INFO  File - successTime20180824150059
+
+2018-08-24 15:01:34,962 [27] INFO  File - remark1
+
+2018-08-24 15:01:34,962 [27] INFO  File - sign 7D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:34,962 [27] INFO  File - strorderPrice=2.00&orderTime=20180824150025&outTradeNo=YB20180824150025388801444&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824150059&tradeStatus=SUCCESS&trxNo=SF77772018082410152269&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:01:34,962 [27] INFO  File - sign7D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:34,962 [27] INFO  File - sign17D688A4AE6F10A014DDC89FC72F96CBB
+
+2018-08-24 15:01:34,962 [27] INFO  File - 处理订单开始
+
+2018-08-24 15:01:34,988 [27] INFO  File - message{  "MessageID": 1,  "Success": false,  "Content": "抱歉！充值订单不存在。",  "EntityList": []}
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 15:10:12,223 [36] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 15:10:12,498 [36] INFO  File - {
+  "errormsg": "YB20180824151012309504555",
+  "errorcode": "1"
+}
+
+2018-08-24 15:10:12,499 [36] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-24 15:10:12,905 [12] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 15:10:12,920 [12] INFO  File - {
+  "errormsg": "YB20180824151012912105768",
+  "errorcode": "1"
+}
+
+2018-08-24 15:10:12,920 [12] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-24 15:10:33,765 [36] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:10:33,765 [36] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:10:33,765 [36] INFO  File - productName1
+
+2018-08-24 15:10:33,765 [36] INFO  File - productType20000203
+
+2018-08-24 15:10:33,765 [36] INFO  File - orderPrice1.00
+
+2018-08-24 15:10:33,765 [36] INFO  File - orderTime20180824151012
+
+2018-08-24 15:10:33,765 [36] INFO  File - outTradeNoYB20180824151012912105768
+
+2018-08-24 15:10:33,765 [36] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:10:33,765 [36] INFO  File - trxNoSF77772018082410152359
+
+2018-08-24 15:10:33,765 [36] INFO  File - successTime20180824151037
+
+2018-08-24 15:10:33,765 [36] INFO  File - remark1
+
+2018-08-24 15:10:33,765 [36] INFO  File - sign 833FCE171D24F76560835482745757A2
+
+2018-08-24 15:10:33,765 [36] INFO  File - strorderPrice=1.00&orderTime=20180824151012&outTradeNo=YB20180824151012912105768&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151037&tradeStatus=SUCCESS&trxNo=SF77772018082410152359&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:10:35,124 [36] INFO  File - sign833FCE171D24F76560835482745757A2
+
+2018-08-24 15:10:35,601 [36] INFO  File - sign1833FCE171D24F76560835482745757A2
+
+----------------------header--------------------------
+
+2018-08-24 15:10:37,723 [6] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:10:37,723 [6] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:10:37,723 [6] INFO  File - productName1
+
+2018-08-24 15:10:37,723 [6] INFO  File - productType20000203
+
+2018-08-24 15:10:37,723 [6] INFO  File - orderPrice1.00
+
+2018-08-24 15:10:37,723 [6] INFO  File - orderTime20180824151012
+
+2018-08-24 15:10:37,723 [6] INFO  File - outTradeNoYB20180824151012912105768
+
+2018-08-24 15:10:37,723 [6] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:10:37,724 [6] INFO  File - trxNoSF77772018082410152359
+
+2018-08-24 15:10:37,724 [6] INFO  File - successTime20180824151038
+
+2018-08-24 15:10:43,869 [36] INFO  File - 处理订单开始
+
+2018-08-24 15:10:43,907 [36] INFO  File - message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": []}
+
+2018-08-24 15:10:43,907 [36] INFO  File - 充值成功
+
+----------------------header--------------------------
+
+2018-08-24 15:10:54,264 [17] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:10:54,264 [17] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:10:54,264 [17] INFO  File - productName1
+
+2018-08-24 15:10:54,264 [17] INFO  File - productType20000203
+
+2018-08-24 15:10:54,264 [17] INFO  File - orderPrice1.00
+
+2018-08-24 15:10:54,264 [17] INFO  File - orderTime20180824151012
+
+2018-08-24 15:10:54,264 [17] INFO  File - outTradeNoYB20180824151012912105768
+
+2018-08-24 15:10:54,264 [17] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:10:54,264 [17] INFO  File - trxNoSF77772018082410152359
+
+2018-08-24 15:10:54,264 [17] INFO  File - successTime20180824151037
+
+2018-08-24 15:10:54,264 [17] INFO  File - remark1
+
+2018-08-24 15:10:54,264 [17] INFO  File - sign 833FCE171D24F76560835482745757A2
+
+2018-08-24 15:10:54,265 [17] INFO  File - strorderPrice=1.00&orderTime=20180824151012&outTradeNo=YB20180824151012912105768&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151037&tradeStatus=SUCCESS&trxNo=SF77772018082410152359&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:10:54,265 [17] INFO  File - sign833FCE171D24F76560835482745757A2
+
+2018-08-24 15:10:54,265 [17] INFO  File - sign1833FCE171D24F76560835482745757A2
+
+2018-08-24 15:10:54,265 [17] INFO  File - 处理订单开始
+
+2018-08-24 15:10:54,270 [17] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:11:04,652 [36] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:11:04,652 [36] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:11:04,652 [36] INFO  File - productName1
+
+2018-08-24 15:11:04,652 [36] INFO  File - productType20000203
+
+2018-08-24 15:11:04,652 [36] INFO  File - orderPrice1.00
+
+2018-08-24 15:11:04,652 [36] INFO  File - orderTime20180824151012
+
+2018-08-24 15:11:04,652 [36] INFO  File - outTradeNoYB20180824151012912105768
+
+2018-08-24 15:11:04,652 [36] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:11:04,652 [36] INFO  File - trxNoSF77772018082410152359
+
+2018-08-24 15:11:04,652 [36] INFO  File - successTime20180824151037
+
+2018-08-24 15:11:04,652 [36] INFO  File - remark1
+
+2018-08-24 15:11:04,652 [36] INFO  File - sign 833FCE171D24F76560835482745757A2
+
+2018-08-24 15:11:04,652 [36] INFO  File - strorderPrice=1.00&orderTime=20180824151012&outTradeNo=YB20180824151012912105768&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151037&tradeStatus=SUCCESS&trxNo=SF77772018082410152359&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:11:04,652 [36] INFO  File - sign833FCE171D24F76560835482745757A2
+
+2018-08-24 15:11:04,652 [36] INFO  File - sign1833FCE171D24F76560835482745757A2
+
+2018-08-24 15:11:04,652 [36] INFO  File - 处理订单开始
+
+2018-08-24 15:11:04,656 [36] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 15:11:17,103 [17] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:11:17,112 [17] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:11:17,112 [17] INFO  File - productName1
+
+2018-08-24 15:11:17,112 [17] INFO  File - productType20000203
+
+2018-08-24 15:11:17,112 [17] INFO  File - orderPrice1.00
+
+2018-08-24 15:11:17,112 [17] INFO  File - orderTime20180824151012
+
+2018-08-24 15:11:17,112 [17] INFO  File - outTradeNoYB20180824151012912105768
+
+2018-08-24 15:11:17,112 [17] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:11:17,112 [17] INFO  File - trxNoSF77772018082410152359
+
+2018-08-24 15:11:17,113 [17] INFO  File - successTime20180824151037
+
+2018-08-24 15:11:17,113 [17] INFO  File - remark1
+
+2018-08-24 15:11:17,113 [17] INFO  File - sign 833FCE171D24F76560835482745757A2
+
+2018-08-24 15:11:17,113 [17] INFO  File - strorderPrice=1.00&orderTime=20180824151012&outTradeNo=YB20180824151012912105768&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151037&tradeStatus=SUCCESS&trxNo=SF77772018082410152359&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:11:17,117 [17] INFO  File - sign833FCE171D24F76560835482745757A2
+
+2018-08-24 15:11:17,117 [17] INFO  File - sign1833FCE171D24F76560835482745757A2
+
+2018-08-24 15:11:17,117 [17] INFO  File - 处理订单开始
+
+2018-08-24 15:11:17,353 [17] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:11:18,455 [34] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 15:11:18,529 [34] INFO  File - {
+  "errormsg": "YB20180824151118470916142",
+  "errorcode": "1"
+}
+
+2018-08-24 15:11:18,529 [34] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-24 15:11:26,280 [6] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:11:26,280 [6] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:11:26,280 [6] INFO  File - productName1
+
+2018-08-24 15:11:26,280 [6] INFO  File - productType20000203
+
+2018-08-24 15:11:26,280 [6] INFO  File - orderPrice1.00
+
+2018-08-24 15:11:26,280 [6] INFO  File - orderTime20180824151118
+
+2018-08-24 15:11:26,280 [6] INFO  File - outTradeNoYB20180824151118470916142
+
+2018-08-24 15:11:26,280 [6] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:11:26,280 [6] INFO  File - trxNoSF77772018082410152370
+
+2018-08-24 15:11:26,280 [6] INFO  File - successTime20180824151132
+
+2018-08-24 15:11:26,280 [6] INFO  File - remark1
+
+2018-08-24 15:11:26,280 [6] INFO  File - sign 50A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:26,280 [6] INFO  File - strorderPrice=1.00&orderTime=20180824151118&outTradeNo=YB20180824151118470916142&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151132&tradeStatus=SUCCESS&trxNo=SF77772018082410152370&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:11:26,280 [6] INFO  File - sign50A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:26,280 [6] INFO  File - sign150A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:26,280 [6] INFO  File - 处理订单开始
+
+2018-08-24 15:11:26,292 [6] INFO  File - message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": []}
+
+2018-08-24 15:11:26,292 [6] INFO  File - 充值成功
+
+----------------------header--------------------------
+
+2018-08-24 15:11:27,721 [22] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:11:27,721 [22] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:11:27,721 [22] INFO  File - productName1
+
+2018-08-24 15:11:27,721 [22] INFO  File - productType20000203
+
+2018-08-24 15:11:27,721 [22] INFO  File - orderPrice1.00
+
+2018-08-24 15:11:27,721 [22] INFO  File - orderTime20180824151012
+
+2018-08-24 15:11:27,721 [22] INFO  File - outTradeNoYB20180824151012912105768
+
+2018-08-24 15:11:27,721 [22] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:11:27,721 [22] INFO  File - trxNoSF77772018082410152359
+
+2018-08-24 15:11:27,721 [22] INFO  File - successTime20180824151037
+
+2018-08-24 15:11:27,721 [22] INFO  File - remark1
+
+2018-08-24 15:11:27,721 [22] INFO  File - sign 833FCE171D24F76560835482745757A2
+
+2018-08-24 15:11:27,721 [22] INFO  File - strorderPrice=1.00&orderTime=20180824151012&outTradeNo=YB20180824151012912105768&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151037&tradeStatus=SUCCESS&trxNo=SF77772018082410152359&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:11:27,721 [22] INFO  File - sign833FCE171D24F76560835482745757A2
+
+2018-08-24 15:11:27,721 [22] INFO  File - sign1833FCE171D24F76560835482745757A2
+
+2018-08-24 15:11:27,721 [22] INFO  File - 处理订单开始
+
+2018-08-24 15:11:27,730 [22] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:11:28,924 [36] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:11:28,924 [36] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:11:28,924 [36] INFO  File - productName1
+
+2018-08-24 15:11:28,924 [36] INFO  File - productType20000203
+
+2018-08-24 15:11:28,924 [36] INFO  File - orderPrice1.00
+
+2018-08-24 15:11:28,924 [36] INFO  File - orderTime20180824151118
+
+2018-08-24 15:11:28,924 [36] INFO  File - outTradeNoYB20180824151118470916142
+
+2018-08-24 15:11:28,924 [36] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:11:28,924 [36] INFO  File - trxNoSF77772018082410152370
+
+2018-08-24 15:11:28,924 [36] INFO  File - successTime20180824151133
+
+2018-08-24 15:11:28,924 [36] INFO  File - remark1
+
+2018-08-24 15:11:28,924 [36] INFO  File - sign 1EC51C030CD566FB67654A2DB763DF8D
+
+2018-08-24 15:11:28,924 [36] INFO  File - strorderPrice=1.00&orderTime=20180824151118&outTradeNo=YB20180824151118470916142&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151133&tradeStatus=SUCCESS&trxNo=SF77772018082410152370&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:11:28,924 [36] INFO  File - sign1EC51C030CD566FB67654A2DB763DF8D
+
+2018-08-24 15:11:28,924 [36] INFO  File - sign11EC51C030CD566FB67654A2DB763DF8D
+
+2018-08-24 15:11:28,924 [36] INFO  File - 处理订单开始
+
+2018-08-24 15:11:28,937 [36] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:11:36,740 [36] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:11:36,740 [36] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:11:36,740 [36] INFO  File - productName1
+
+2018-08-24 15:11:36,740 [36] INFO  File - productType20000203
+
+2018-08-24 15:11:36,740 [36] INFO  File - orderPrice1.00
+
+2018-08-24 15:11:36,740 [36] INFO  File - orderTime20180824151118
+
+2018-08-24 15:11:36,740 [36] INFO  File - outTradeNoYB20180824151118470916142
+
+2018-08-24 15:11:36,740 [36] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:11:36,740 [36] INFO  File - trxNoSF77772018082410152370
+
+2018-08-24 15:11:36,740 [36] INFO  File - successTime20180824151132
+
+2018-08-24 15:11:36,740 [36] INFO  File - remark1
+
+2018-08-24 15:11:36,740 [36] INFO  File - sign 50A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:36,740 [36] INFO  File - strorderPrice=1.00&orderTime=20180824151118&outTradeNo=YB20180824151118470916142&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151132&tradeStatus=SUCCESS&trxNo=SF77772018082410152370&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:11:36,740 [36] INFO  File - sign50A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:36,740 [36] INFO  File - sign150A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:36,740 [36] INFO  File - 处理订单开始
+
+2018-08-24 15:11:36,748 [36] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:11:47,318 [36] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:11:47,318 [36] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:11:47,318 [36] INFO  File - productName1
+
+2018-08-24 15:11:47,318 [36] INFO  File - productType20000203
+
+2018-08-24 15:11:47,318 [36] INFO  File - orderPrice1.00
+
+2018-08-24 15:11:47,318 [36] INFO  File - orderTime20180824151118
+
+2018-08-24 15:11:47,318 [36] INFO  File - outTradeNoYB20180824151118470916142
+
+2018-08-24 15:11:47,318 [36] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:11:47,318 [36] INFO  File - trxNoSF77772018082410152370
+
+2018-08-24 15:11:47,318 [36] INFO  File - successTime20180824151132
+
+2018-08-24 15:11:47,318 [36] INFO  File - remark1
+
+2018-08-24 15:11:47,318 [36] INFO  File - sign 50A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:47,318 [36] INFO  File - strorderPrice=1.00&orderTime=20180824151118&outTradeNo=YB20180824151118470916142&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151132&tradeStatus=SUCCESS&trxNo=SF77772018082410152370&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:11:47,318 [36] INFO  File - sign50A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:47,318 [36] INFO  File - sign150A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:47,318 [36] INFO  File - 处理订单开始
+
+2018-08-24 15:11:47,327 [36] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:11:57,777 [22] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:11:57,777 [22] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:11:57,777 [22] INFO  File - productName1
+
+2018-08-24 15:11:57,777 [22] INFO  File - productType20000203
+
+2018-08-24 15:11:57,777 [22] INFO  File - orderPrice1.00
+
+2018-08-24 15:11:57,777 [22] INFO  File - orderTime20180824151118
+
+2018-08-24 15:11:57,777 [22] INFO  File - outTradeNoYB20180824151118470916142
+
+2018-08-24 15:11:57,777 [22] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:11:57,777 [22] INFO  File - trxNoSF77772018082410152370
+
+2018-08-24 15:11:57,777 [22] INFO  File - successTime20180824151132
+
+2018-08-24 15:11:57,777 [22] INFO  File - remark1
+
+2018-08-24 15:11:57,777 [22] INFO  File - sign 50A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:57,777 [22] INFO  File - strorderPrice=1.00&orderTime=20180824151118&outTradeNo=YB20180824151118470916142&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151132&tradeStatus=SUCCESS&trxNo=SF77772018082410152370&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:11:57,777 [22] INFO  File - sign50A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:57,777 [22] INFO  File - sign150A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:11:57,777 [22] INFO  File - 处理订单开始
+
+2018-08-24 15:11:57,785 [22] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:12:08,336 [12] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:12:08,336 [12] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:12:08,336 [12] INFO  File - productName1
+
+2018-08-24 15:12:08,336 [12] INFO  File - productType20000203
+
+2018-08-24 15:12:08,336 [12] INFO  File - orderPrice1.00
+
+2018-08-24 15:12:08,336 [12] INFO  File - orderTime20180824151118
+
+2018-08-24 15:12:08,336 [12] INFO  File - outTradeNoYB20180824151118470916142
+
+2018-08-24 15:12:08,336 [12] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:12:08,336 [12] INFO  File - trxNoSF77772018082410152370
+
+2018-08-24 15:12:08,336 [12] INFO  File - successTime20180824151132
+
+2018-08-24 15:12:08,336 [12] INFO  File - remark1
+
+2018-08-24 15:12:08,336 [12] INFO  File - sign 50A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:12:08,336 [12] INFO  File - strorderPrice=1.00&orderTime=20180824151118&outTradeNo=YB20180824151118470916142&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151132&tradeStatus=SUCCESS&trxNo=SF77772018082410152370&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:12:08,336 [12] INFO  File - sign50A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:12:08,336 [12] INFO  File - sign150A186F0B0DB04FA6CCC05E435A9DDA2
+
+2018-08-24 15:12:08,336 [12] INFO  File - 处理订单开始
+
+2018-08-24 15:12:08,345 [12] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 15:12:16,109 [12] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 15:12:16,311 [12] INFO  File - {
+  "errormsg": "YB20180824151216159342663",
+  "errorcode": "1"
+}
+
+2018-08-24 15:12:16,312 [12] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-24 15:12:24,572 [9] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:12:24,573 [9] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:12:24,573 [9] INFO  File - productName1
+
+2018-08-24 15:12:24,573 [9] INFO  File - productType20000203
+
+2018-08-24 15:12:24,573 [9] INFO  File - orderPrice1.00
+
+2018-08-24 15:12:24,573 [9] INFO  File - orderTime20180824151216
+
+2018-08-24 15:12:24,573 [9] INFO  File - outTradeNoYB20180824151216159342663
+
+2018-08-24 15:12:24,573 [9] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:12:24,573 [9] INFO  File - trxNoSF77772018082410152377
+
+2018-08-24 15:12:24,573 [9] INFO  File - successTime20180824151231
+
+2018-08-24 15:12:24,573 [9] INFO  File - remark1
+
+2018-08-24 15:12:24,573 [9] INFO  File - sign CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:24,573 [9] INFO  File - strorderPrice=1.00&orderTime=20180824151216&outTradeNo=YB20180824151216159342663&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151231&tradeStatus=SUCCESS&trxNo=SF77772018082410152377&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:12:24,573 [9] INFO  File - signCD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:24,573 [9] INFO  File - sign1CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:24,573 [9] INFO  File - 处理订单开始
+
+2018-08-24 15:12:24,600 [9] INFO  File - message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": []}
+
+2018-08-24 15:12:24,600 [9] INFO  File - 充值成功
+
+----------------------header--------------------------
+
+2018-08-24 15:12:26,424 [35] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:12:26,424 [35] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:12:26,424 [35] INFO  File - productName1
+
+2018-08-24 15:12:26,424 [35] INFO  File - productType20000203
+
+2018-08-24 15:12:26,424 [35] INFO  File - orderPrice1.00
+
+2018-08-24 15:12:26,424 [35] INFO  File - orderTime20180824151216
+
+2018-08-24 15:12:26,424 [35] INFO  File - outTradeNoYB20180824151216159342663
+
+2018-08-24 15:12:26,424 [35] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:12:26,424 [35] INFO  File - trxNoSF77772018082410152377
+
+2018-08-24 15:12:26,424 [35] INFO  File - successTime20180824151231
+
+2018-08-24 15:12:26,424 [35] INFO  File - remark1
+
+2018-08-24 15:12:26,424 [35] INFO  File - sign CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:26,424 [35] INFO  File - strorderPrice=1.00&orderTime=20180824151216&outTradeNo=YB20180824151216159342663&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151231&tradeStatus=SUCCESS&trxNo=SF77772018082410152377&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:12:26,424 [35] INFO  File - signCD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:26,424 [35] INFO  File - sign1CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:26,424 [35] INFO  File - 处理订单开始
+
+2018-08-24 15:12:26,427 [35] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:12:34,979 [37] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:12:34,979 [37] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:12:34,979 [37] INFO  File - productName1
+
+2018-08-24 15:12:34,979 [37] INFO  File - productType20000203
+
+2018-08-24 15:12:34,979 [37] INFO  File - orderPrice1.00
+
+2018-08-24 15:12:34,979 [37] INFO  File - orderTime20180824151216
+
+2018-08-24 15:12:34,979 [37] INFO  File - outTradeNoYB20180824151216159342663
+
+2018-08-24 15:12:34,979 [37] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:12:34,979 [37] INFO  File - trxNoSF77772018082410152377
+
+2018-08-24 15:12:34,979 [37] INFO  File - successTime20180824151231
+
+2018-08-24 15:12:34,979 [37] INFO  File - remark1
+
+2018-08-24 15:12:34,979 [37] INFO  File - sign CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:34,979 [37] INFO  File - strorderPrice=1.00&orderTime=20180824151216&outTradeNo=YB20180824151216159342663&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151231&tradeStatus=SUCCESS&trxNo=SF77772018082410152377&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:12:34,979 [37] INFO  File - signCD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:34,979 [37] INFO  File - sign1CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:34,979 [37] INFO  File - 处理订单开始
+
+2018-08-24 15:12:34,983 [37] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:12:45,495 [9] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:12:45,509 [9] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:12:45,509 [9] INFO  File - productName1
+
+2018-08-24 15:12:45,509 [9] INFO  File - productType20000203
+
+2018-08-24 15:12:45,509 [9] INFO  File - orderPrice1.00
+
+2018-08-24 15:12:45,509 [9] INFO  File - orderTime20180824151216
+
+2018-08-24 15:12:45,509 [9] INFO  File - outTradeNoYB20180824151216159342663
+
+2018-08-24 15:12:45,509 [9] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:12:45,509 [9] INFO  File - trxNoSF77772018082410152377
+
+2018-08-24 15:12:45,509 [9] INFO  File - successTime20180824151231
+
+2018-08-24 15:12:45,509 [9] INFO  File - remark1
+
+2018-08-24 15:12:45,509 [9] INFO  File - sign CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:45,509 [9] INFO  File - strorderPrice=1.00&orderTime=20180824151216&outTradeNo=YB20180824151216159342663&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151231&tradeStatus=SUCCESS&trxNo=SF77772018082410152377&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:12:45,509 [9] INFO  File - signCD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:45,509 [9] INFO  File - sign1CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:45,509 [9] INFO  File - 处理订单开始
+
+2018-08-24 15:12:45,585 [9] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 15:12:59,373 [34] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:12:59,382 [34] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:12:59,382 [34] INFO  File - productName1
+
+2018-08-24 15:12:59,382 [34] INFO  File - productType20000203
+
+2018-08-24 15:12:59,383 [34] INFO  File - orderPrice1.00
+
+2018-08-24 15:12:59,383 [34] INFO  File - orderTime20180824151216
+
+2018-08-24 15:12:59,383 [34] INFO  File - outTradeNoYB20180824151216159342663
+
+2018-08-24 15:12:59,383 [34] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:12:59,383 [34] INFO  File - trxNoSF77772018082410152377
+
+2018-08-24 15:12:59,383 [34] INFO  File - successTime20180824151231
+
+2018-08-24 15:12:59,383 [34] INFO  File - remark1
+
+2018-08-24 15:12:59,383 [34] INFO  File - sign CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:59,383 [34] INFO  File - strorderPrice=1.00&orderTime=20180824151216&outTradeNo=YB20180824151216159342663&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151231&tradeStatus=SUCCESS&trxNo=SF77772018082410152377&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:12:59,387 [34] INFO  File - signCD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:59,387 [34] INFO  File - sign1CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:12:59,387 [34] INFO  File - 处理订单开始
+
+2018-08-24 15:13:00,580 [34] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-08-24 15:13:11,534 [20] INFO  File - Game.Web.Pay.yifu.return_url开始
+
+2018-08-24 15:13:11,534 [20] INFO  File - payKeyf70036a8a7ed4d75aa86ce74f51290e9
+
+2018-08-24 15:13:11,534 [20] INFO  File - productName1
+
+2018-08-24 15:13:11,534 [20] INFO  File - productType20000203
+
+2018-08-24 15:13:11,534 [20] INFO  File - orderPrice1.00
+
+2018-08-24 15:13:11,534 [20] INFO  File - orderTime20180824151216
+
+2018-08-24 15:13:11,534 [20] INFO  File - outTradeNoYB20180824151216159342663
+
+2018-08-24 15:13:11,534 [20] INFO  File - tradeStatusSUCCESS
+
+2018-08-24 15:13:11,534 [20] INFO  File - trxNoSF77772018082410152377
+
+2018-08-24 15:13:11,534 [20] INFO  File - successTime20180824151231
+
+2018-08-24 15:13:11,534 [20] INFO  File - remark1
+
+2018-08-24 15:13:11,534 [20] INFO  File - sign CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:13:11,534 [20] INFO  File - strorderPrice=1.00&orderTime=20180824151216&outTradeNo=YB20180824151216159342663&payKey=f70036a8a7ed4d75aa86ce74f51290e9&productName=1&productType=20000203&remark=1&successTime=20180824151231&tradeStatus=SUCCESS&trxNo=SF77772018082410152377&paySecret=cdc6b8823b4647b891e9292aba2ac813
+
+2018-08-24 15:13:11,534 [20] INFO  File - signCD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:13:11,534 [20] INFO  File - sign1CD2521E028BDFCA129FC98D55F0B3888
+
+2018-08-24 15:13:11,534 [20] INFO  File - 处理订单开始
+
+2018-08-24 15:13:11,592 [20] INFO  File - message{  "MessageID": 2,  "Success": false,  "Content": "抱歉！充值订单重复。",  "EntityList": []}
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 15:59:17,819 [7] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 15:59:18,003 [7] INFO  File - {
+  "errormsg": "YB20180824155917857670346",
+  "errorcode": "1"
+}
+
+2018-08-24 15:59:18,003 [7] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-24 15:59:18,880 [9] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 15:59:18,894 [9] INFO  File - {
+  "errormsg": "YB20180824155918886772528",
+  "errorcode": "1"
+}
+
+2018-08-24 15:59:18,894 [9] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-24 15:59:36,550 [15] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 15:59:36,588 [15] INFO  File - {
+  "errormsg": "YB20180824155936571542078",
+  "errorcode": "1"
+}
+
+2018-08-24 15:59:36,588 [15] INFO  File - 2
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-24 16:00:36,293 [11] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-24 16:00:36,428 [11] INFO  File - {
+  "errormsg": "YB20180824160036327010680",
+  "errorcode": "1"
+}
+
+2018-08-24 16:00:36,429 [11] INFO  File - 2

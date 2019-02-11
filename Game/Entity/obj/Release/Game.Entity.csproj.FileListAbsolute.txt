@@ -1,0 +1,12 @@
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\bin\Release\Game.Entity.dll
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\bin\Release\Game.Entity.pdb
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\bin\Release\Newtonsoft.Json.dll
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\obj\Release\Game.Entity.csprojResolveAssemblyReference.cache
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\obj\Release\Game.Entity.dll
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\obj\Release\Game.Entity.pdb
+D:\works\网站代码3\Front\Game\Entity\bin\Release\Game.Entity.dll
+D:\works\网站代码3\Front\Game\Entity\bin\Release\Game.Entity.pdb
+D:\works\网站代码3\Front\Game\Entity\bin\Release\Newtonsoft.Json.dll
+D:\works\网站代码3\Front\Game\Entity\obj\Release\Game.Entity.csprojResolveAssemblyReference.cache
+D:\works\网站代码3\Front\Game\Entity\obj\Release\Game.Entity.dll
+D:\works\网站代码3\Front\Game\Entity\obj\Release\Game.Entity.pdb

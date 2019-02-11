@@ -1,0 +1,5 @@
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\bin\Debug\Game.Entity.dll
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\bin\Debug\Game.Entity.pdb
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\bin\Debug\Newtonsoft.Json.dll
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\obj\Debug\Game.Entity.dll
+D:\Mywork\haotan\yibiyi\Front\Game\Entity\obj\Debug\Game.Entity.pdb

@@ -1,0 +1,85 @@
+﻿
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>首页</title>
+    <link href="js/lhgdialog/lhgdialog.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <script type="text/javascript" src="public/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript">
+        /*
+        * 智能机浏览器版本信息:
+        *
+        */
+        var browser = {
+            versions: function () {
+                var u = navigator.userAgent, app = navigator.appVersion;
+                return {//移动终端浏览器版本信息
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    presto: u.indexOf('Presto') > -1, //opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+                    iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+                };
+            }(),
+            language: (navigator.browserLanguage || navigator.language).toLowerCase()
+        }
+        if (browser.versions.android || browser.versions.ios || browser.versions.iPhone || browser.versions.iPad) {
+            location.href = "/m/index.aspx";
+        }
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <img src="images/logo.png" />
+        </div>
+        <div class="register-main">
+            <div class="register-list">
+                <div class="register-info">
+                    <div class="register-tit">
+                        <span></span>
+                        <strong>创建账号</strong>
+                    </div>
+                    <div class="register-form clearfix">
+                        <span class="fl">账号</span>
+                        <input type="text" value="" class="fl" name="account" id="account" maxlength="12">
+                    </div>
+                    
+                    <div class="register-form clearfix">
+                        <span class="fl">登录密码</span>
+                        <input type="password" value="" class="fl" name="pwd" id="pwd" maxlength="12">
+                    </div>
+                    <div class="register-form clearfix">
+                        <span class="fl">确认密码</span>
+                        <input type="password" value="" class="fl" name="pwd2" id="pwd2" maxlength="20">
+                    </div>
+                    <div class="register-form clearfix">
+                        <span class="fl">验证码</span>
+                        <input type="text" value="" name="vcode" id="vcode" maxlength="6">
+                        <img id="code" class="code" src="/ValidateImage.aspx" onclick="this.src = this.src+ '?'" />
+                    </div>
+                    <div class="agreement clearfix">
+                        <input type="checkbox" name="agreementInput" value="我已阅读并接受《莫莫游戏开户服务协议》" id="agreementCheckbox" checked="checked">
+                        <label for="agreementCheckbox">我已阅读并接受《莫莫棋牌开户服务协议》</label>
+                    </div>
+                </div>
+                <div class="register-btn" id="submitBtn">
+                    <input id="btnReg" type="button" value="">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>授权监管 我们将不留余力的为您提供优质的服务和可行的资金保证</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/lhgdialog/lhgdialog.min.js"></script>
+    <script src="/m/js/register.js"></script>
+</body>
+</html>

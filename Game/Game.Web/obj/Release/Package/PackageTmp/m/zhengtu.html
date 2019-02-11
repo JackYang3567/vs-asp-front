@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <title>征途棋牌</title>
+    <link href="newIndex.css" rel="stylesheet" />
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/lhgdialog/lhgdialog.min.js"></script>
+    <script src="js/register.js"></script>
+    <style>
+        .btn-items {
+            background: rgba(28,28,28,.6);
+        }
+        .register-list > div {
+            width: 100%;
+            height: 1.4rem;
+        }
+        .register-list .button-active {
+            width: 80%;
+            margin: .2rem auto;
+        } 
+        .register-list span {
+            width: 25%;
+        }
+        .agreement span {
+            width: .3rem;
+        }
+        .register-list .agreement {
+            width: 100%;
+            margin: 0;
+        }
+        .code-pic {
+            right: 9%;
+        }
+    </style>
+</head>
+<body>
+    <div class="col-100 zhengtu-main">
+        <img src="images/zhengtu_bg_01.jpg" alt="" />
+        <img src="images/zhengtu_bg_02.jpg" alt="" />
+        <img src="images/zhengtu_bg_03.jpg" alt="" />
+        <img src="images/zhengtu_bg_04.jpg" alt="" />
+        <a href="#" id="zhengtuRegisterBtn">
+            <img src="images/zhengtu_bg_05.jpg" alt="" />
+        </a>
+        <img src="images/zhengtu_bg_06.jpg" alt="" />
+        <img src="images/zhengtu_bg_07.jpg" alt="" />
+        <img src="images/zhengtu_bg_08.jpg" alt="" />
+        <img src="images/zhengtu_bg_09.jpg" alt="" />
+        <img src="images/zhengtu_bg_10.jpg" alt="" />
+        <img src="images/zhengtu_bg_11.jpg" alt="" />  
+    </div>
+    <div class="position-fixed btn-items clearfix"> 
+        <a href="#" class="fl android-btn download">
+            <img src="images/zhengtu_android_btn.png" alt="安卓下载" />
+        </a>
+        <a href="#" class="fl ios-btn download">
+            <img src="images/zhengtu_apple_btn.png" alt="苹果下载" />
+        </a>
+    </div>
+    <div class="zhengtu-register-alert" id="zhengtuRegisterAler">
+        <div class="position-relative col-100">
+            <a href="javascript:;" class="alert-tit">
+                <h1>账号注册</h1>
+                <span>官网唯一注册入口</span>
+            </a>
+            <div class="close-btn">
+                <img src="images/colse_btn.png" alt="" />
+            </div>           
+        </div>
+        <form class="" id="form" onsubmit="return false;" name="passwordSet" data-validator-option="{focusCleanup:true, theme:'simple_right'}">
+            <div class="register-list">
+                <div class="clearfix">
+                    <span class="fl">登录账号</span>
+                    <input type="text" value="" class="fl" name="account" id="account" maxlength="12" />
+                </div>
+                <div class="clearfix">
+                    <span class="fl">登录密码</span>
+                    <input type="password" value="" class="fl" name="pwd" id="pwd" maxlength="20" />
+                </div>
+                <div class="clearfix">
+                    <span class="fl">确认密码</span>
+                    <input type="password" value="" class="fl" name="pwd2" id="pwd2" maxlength="20" />
+                </div>
+                <div class="clearfix">
+                    <span class="fl">验&nbsp;&nbsp;证&nbsp;&nbsp;码</span>
+                    <input type="text" name="vcode" id="vcode" placeholder="请输入验证码">
+                    <img class="code-pic" src="/ValidateImage.aspx" style="cursor: pointer" title="点击更换验证码图片!" onclick="this.src = this.src + '?'">
+                </div>
+                <div class="agreement clearfix">
+                    <input type="checkbox" name="agreementInput" value="我已阅读并接受《云鼎游戏开户服务协议》" id="agreementCheckbox">
+                    <span class="active"></span>
+                    <label for="agreementCheckbox">我已阅读并接受《云鼎游戏开户服务协议》</label>
+                </div>
+                <div class="button-active" id="submitBtn">
+                    <input id="btnReg" type="button" value="" />
+                </div>
+                <span class="download-now">已有账号，<a href="#">立即下载</a></span>
+            </div>
+        </form>
+    </div>
+    <div class="window-mask"></div>
+    <script>
+        $(".agreement").on("click", function () {
+            checkboxclick(this);
+        })
+        //checkbox的点击事件绑定
+        var checkboxclick = function (obj) {
+            if ($(obj).children("input").is(":checked")) {
+                $(obj).children("span").addClass("active");
+            } else {
+                $(obj).children("span").removeClass("active");
+            }
+        }
+
+        $("#zhengtuRegisterBtn").on("click", function () {
+            $("#zhengtuRegisterAler").show("show");
+            $(".window-mask").show("show");
+        })
+
+        $(".close-btn").on("click", function () {
+            $("#zhengtuRegisterAler").hide("show");
+            $(".window-mask").hide("show");
+        })
+    </script>
+</body>
+</html>

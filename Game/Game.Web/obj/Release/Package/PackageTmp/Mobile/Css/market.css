@@ -1,0 +1,443 @@
+﻿@charset "utf-8";
+/* CSS reset */
+html{color:#fff;background-color: #000;font-family:Arial,'Microsoft YaHei','宋体';}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,strong{padding:0;margin:0;font-family:'Microsoft YaHei',Arial,'宋体';}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+a{text-decoration:none; color:#00c; outline:none;}/*此处待添加默认链接颜色*/
+var,em,strong{font-style:normal;}
+address,caption,cite,code,dfn,em,strong,th,var, optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit; font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+body{-webkit-user-select:none;-webkit-text-size-adjust:none;}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clearfix:after {content:"\200B"; display:block; height:0; clear:both; }
+.clearfix { *zoom:1; }
+@media only screen and (max-width: 479px) {
+    html{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width:480px ) and (max-width: 600px) {
+    html{
+        font-size: 42px;
+    }
+}
+@media only screen and (min-width:601px ) and (max-width: 719px) {
+    html{
+        font-size: 48px;
+    }
+}
+@media only screen and (min-width:720px ) and (max-width: 800px) {
+    html{
+        font-size: 55px;
+    }
+}
+@media only screen and (min-width:801px ) and (max-width: 1114px) {
+    html{
+        font-size: 75px;
+    }
+}
+@media only screen and (min-width:1115px ) and (max-width: 1199px) {
+    html{
+        font-size: 90px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 104px;
+    }
+}
+html{
+    width: 100%;
+    height: 100%;
+    background: url("Image/transparent_bg.png") repeat;
+    background-size: 100% 100%;
+}
+.count-settlement>h2,
+.count-settlement>div,
+.fl {float: left;}
+.fr {float: right;}
+.market-html {
+    width: 100%;
+    min-height: 100%;
+}
+.market-details,
+.wrap {
+    width: 100%;
+}
+.binding-main,
+.main {
+    width: 99%;
+    margin: 0 auto;
+    font-size: .28rem;
+}
+.activety-list-alert img,
+.market-details img,
+.exchange-btn img,
+.binding-btn img,
+.bank-list a span,
+.bank-list img,
+.bank-logo img,
+.binding-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*推广统计start*/
+.market-info {
+    padding: .5rem 0;
+}
+.market-admin-tit {
+    width: 22%;
+    font-size: .3rem;
+}
+.market-tiqu,
+.count-settlement,
+.market-admin-list th,
+.market-admin-tit span {
+    color: #c7bd88;
+    text-align: center;
+    font-size: .3rem;
+}
+.market-admin-tit span {
+    display: block;
+    width: 60%;
+    margin: .25rem 20% 0;
+    background-color: #1f1f21;
+    border: 1px solid #dbba69;
+    line-height: .738rem;   
+    border-radius: 30px;  
+}
+.count-settlement h2,
+.market-admin-tit .active {
+    background-color: #dbba69;
+    color: #2a2414;
+}
+.market-admin-list {
+    width: 78%; 
+}
+.market-admin-list table {
+    width: 93%;
+    border: 1px solid #7e7e64;
+}
+.market-admin-list thead {
+    border-bottom: 2px solid #dcc17e;
+    background-color: #332e28;
+}
+.market-admin-list tr {
+    height: .7rem;
+    line-height: .7rem; 
+}
+.market-admin-list td {
+    border-top: 1px solid #7e7e64;
+    text-align: center;
+}
+.count-settlement {
+    width: 90%;
+    height: .8rem;
+    margin: 0 auto;
+    border: 1px solid #7e7e64;
+    line-height: .8rem;
+    border-radius: 10px;
+    text-aling: left;
+}
+.count-settlement div {
+    float: left;
+    width: 33.3%;
+}
+.market-tiqu {
+    margin: .4rem 0;
+}
+.market-tiqu span {
+    float: left;
+    width: 20%;
+    line-height: .8rem;
+    text-align: right;
+}
+.market-tiqu input {
+    float: left;
+    height: .8rem;
+    outline: none;
+}
+.market-tiqu input:nth-child(2) {
+    width: 40%;
+    margin: 0 1%;
+    padding: 0 1%;
+    border: 2px solid #dcc17e;
+    background-color: #1f1f1f;
+    border-radius: 30px;
+    color: #fff;
+}
+.market-tiqu input:nth-child(3) {
+    width: 20%;
+    border: none;
+    background: url("../Image/btn_sure.png") no-repeat;
+    background-size: 100% 100%;
+}
+.count-settlement div span:nth-child(2) {
+    color: #fff;
+}
+.count-settlement span {
+    float: left;
+    font-size: .28rem;
+}
+/*推广统计end*/
+/*推广赚金start*/
+.gain-code {
+    width: 37%;
+    font-size: .45rem;
+    text-align: center;
+}
+.gain-list {
+    width: 63%;
+}
+.gain-code div {
+    width: 80%;
+    height: 3.5rem;
+    margin: 1.8rem auto .2rem;
+    background-color: #fff;
+    line-height: 3.5rem;
+    text-align: center;
+}
+.gain-code div img {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    vertical-align: middle;
+}
+.gain-list img {
+    display: block;
+    width: 90%;
+    height: auto;
+}
+.gain-list p {
+    line-height: .6rem;
+    font-size: .35rem;
+}
+.gain-list p input {
+	height: .6rem;
+	line-height: .6rem;
+	font-size: .25rem;
+	border: none;
+	outline: none;
+}
+.shurubox {
+	width: 50%;
+	margin-right: 5px;
+}
+.linkback {
+	width: 25%;
+	text-align: center;
+}
+.gain-list p img {
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    margin: 0 0 -.15rem;
+}
+body .explain {
+    margin: .2rem 0;
+	font-size: .25rem;
+	color: #DCBA6C;
+}
+.gain-list a {
+    display: block;
+    width: 84%;
+    line-height: 1rem;
+    color: #ff0000;
+    font-size: .3rem;
+    text-align: right;
+    text-decoration: underline;
+}
+.market-details {
+    padding: .2rem 0;
+}
+/*推广赚金end*/
+/*活动start*/
+.exchange-prompt,
+.activity {
+    width: 90%;
+    margin: 0 auto;
+}
+.activity li {
+    height: 100%;
+    margin-top: .5rem;
+}
+.activity li>img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.activety-list-alert {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+/*活动end*/
+/*兑换绑定start*/
+.binding-card {
+    height: 1rem;
+    margin-top: 2rem;
+    line-height: .9rem;
+    font-size: .35rem;
+}
+.binding-card span {
+    width: 20%;
+    text-align: right;
+}
+.binding-card strong {
+    width: 55%;
+    height: .9rem;
+    margin: 0 1%;
+    border: 1px solid #796b3a;
+    color: #ff0000;
+    border-radius: 10px;
+	font-size: .4rem;
+}
+.binding-card a {
+    width: 20%;
+    height: .9rem;
+}
+.binding-prompt,
+.prompt {
+    width: 90%;
+    margin: .2rem auto 0;
+    line-height: .5rem;
+    color: #a78b00;
+	font-size: .25rem;
+    text-align: center;
+}
+.bank-list,
+.bindings-list {
+    width: 90%;
+    margin: 0 auto;
+    font-size: .3rem;
+}
+.bank-logo {
+    width: 30%;
+}
+.name-card {
+    width: 68%;
+}
+.bank-info p {
+    width: 1px;
+    height: 2rem;
+    margin: .4rem 0;
+    background: url("../Image/bank_line.png") no-repeat;
+    background-size: 100% 100%;
+}
+.name-card {
+    margin-top: .6rem;
+}
+.name-card div {
+    height: .8rem;
+    margin-bottom: .2rem;
+    line-height: .8rem;
+}
+.name-card span {
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+}
+.name-card input {
+    display: inline-block;
+    width: 60%;
+    height: .75rem;
+    background-color: #323131;
+    line-height: .8rem;
+    border: 1px solid #796b3a;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+}
+.bank-list {
+    padding: 10px 20px;
+    background-color: #323131;
+    border-radius: 10px;
+}
+.bank-list a {
+    position: relative;
+    float: left;
+    width: 19%;
+    height: .8rem;
+    padding: 0 .5%;
+    margin: .1rem 0;
+}
+.bank-list a span {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../Image/bank_sel.png") no-repeat;
+    background-size: 100% 100%;
+}
+.bank-list .active span {
+    display: block;
+}
+.binding-prompt {
+    width: 90%;
+}
+.binding-btn {
+    display: block;
+    width: 30%;
+    height: 1rem;
+    margin: .1rem auto .5rem;
+}
+/*兑换绑定end*/
+/*兑换start*/
+.exchange-main {
+    padding: 0 0;
+    color: #b99f61;
+    font-size: .35rem;
+}
+.exchange-list {
+    width: 80%;
+    margin: 0 auto;
+    padding: .3rem 5% 0;
+    border: 1px solid #3f3926;
+    background-color: #161616;
+}
+.exchange-list div {
+    margin-bottom: .3rem;
+}
+body .exchange-list strong {
+    color: #fff;
+}
+.exchange-btn {
+    width: 60%;
+    margin: .3rem auto .5rem;
+}
+.exchange-btn input {
+    width: 56%;
+    height: .8rem;
+    margin-right: 3%;
+    padding: 0 2%;
+    line-height: .8rem;
+    background-color: #000;
+    border: 2px solid #dfbf73;
+    border-radius: 30px;
+    outline: none;
+    color: #fff;
+}
+.exchange-btn a {
+    width: 35%;
+    height: .8rem;
+}
+
+.nobing {
+    width: 100%;
+    color:#fff;
+    text-align:center;
+}
+/*兑换end*/

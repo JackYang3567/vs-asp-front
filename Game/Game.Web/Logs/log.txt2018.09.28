@@ -1,0 +1,168 @@
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-09-28 15:30:49,090 [5] INFO  File - actionreguser
+
+----------------------header--------------------------
+
+2018-09-28 15:31:25,053 [8] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 15:35:42,063 [38] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 15:35:49,779 [38] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 15:35:55,946 [37] INFO  File - actionreguser
+
+2018-09-28 15:36:42,302 [37] INFO  File - parentAccount
+
+----------------------header--------------------------
+
+2018-09-28 15:37:45,935 [48] INFO  File - actionreguser
+
+2018-09-28 15:39:18,932 [48] INFO  File - parentAccount
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-09-28 15:40:38,069 [54] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 15:40:45,026 [58] INFO  File - actionreguser
+
+2018-09-28 15:41:35,584 [58] INFO  File - parentAccount304302
+
+2018-09-28 15:41:50,706 [58] INFO  File - parentAccount325607
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-09-28 15:53:50,884 [11] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 15:53:56,112 [10] INFO  File - actionreguser
+
+2018-09-28 15:54:24,886 [10] INFO  File - parentAccount316100
+
+2018-09-28 15:54:32,482 [10] INFO  File - parentAccount316100
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-09-28 22:48:14,743 [24] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 22:48:20,813 [18] INFO  File - actionreguser
+
+2018-09-28 22:48:49,337 [18] INFO  File - parentAccount304302
+
+2018-09-28 22:48:49,726 [18] INFO  File - parentAccount325659
+
+2018-09-28 22:50:01,406 [18] INFO  File - RegUser-message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": []}
+
+----------------------header--------------------------
+
+2018-09-28 22:50:27,961 [31] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 22:50:32,164 [36] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 22:50:36,172 [35] INFO  File - actionreguser
+
+2018-09-28 22:51:07,368 [35] INFO  File - parentAccount304302
+
+2018-09-28 22:51:07,728 [35] INFO  File - parentAccount325661
+
+2018-09-28 22:51:17,897 [35] INFO  File - RegUser-message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": []}
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-09-28 22:53:20,634 [55] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 22:53:25,157 [54] INFO  File - actionreguser
+
+2018-09-28 22:53:34,026 [54] INFO  File - parentAccount
+
+----------------------header--------------------------
+
+2018-09-28 22:53:52,585 [50] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 22:54:14,545 [48] INFO  File - actionreguser
+
+2018-09-28 22:54:29,081 [48] INFO  File - parentAccount304302
+
+2018-09-28 22:54:29,428 [48] INFO  File - parentAccount325662
+
+2018-09-28 22:54:39,677 [48] INFO  File - RegUser-message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": [    {      "UserID": 110802,      "GameID": 325663,      "ProtectID": 0,      "PasswordID": 0,      "SpreaderID": 0,      "Accounts": "15853274854",      "NickName": "15853274854",      "RegAccounts": "",      "UnderWrite": "",      "PassPortID": "",      "Compellation": "",      "LogonPass": "",      "InsurePass": "",      "DynamicPass": "",      "DynamicPassTime": "2018-09-28T22:54:32.6120257+08:00",      "FaceID": 4,      "CustomID": 0,      "Present": 0,      "UserMedal": 0,      "Experience": 0,      "LoveLiness": 0,      "UserRight": 0,      "MasterRight": 0,      "ServiceRight": 0,      "MasterOrder": 0,      "MemberOrder": 0,      "MemberOverDate": "1905-06-02T00:00:00",      "MemberSwitchDate": "2018-09-28T22:54:32.6120257+08:00",      "CustomFaceVer": 0,      "Gender": 1,      "Nullity": 0,      "NullityOverDate": "2018-09-28T22:54:32.6120257+08:00",      "StunDown": 0,      "MoorMachine": 0,      "IsAndroid": 0,      "WebLogonTimes": 0,      "GameLogonTimes": 0,      "PlayTimeCount": 0,      "OnLineTimeCount": 0,      "LastLogonIP": "",      "LastLogonDate": "2018-09-28T22:54:32.6120257+08:00",      "LastLogonMobile": "",      "LastLogonMachine": "",      "RegisterIP": "",      "RegisterDate": "2018-09-28T22:54:32.6120257+08:00",      "RegisterMobile": "",      "RegisterMachine": "",      "UserUin": 0,      "RankID": 0,      "AgentID": 0    }  ]}
+
+----------------------header--------------------------
+
+2018-09-28 22:55:29,135 [44] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 22:55:33,370 [38] INFO  File - actionreguser
+
+2018-09-28 22:56:05,445 [38] INFO  File - parentAccount304302
+
+2018-09-28 22:56:05,797 [38] INFO  File - parentAccount325663
+
+2018-09-28 22:56:17,656 [38] INFO  File - RegUser-message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": [    {      "UserID": 110803,      "GameID": 325664,      "ProtectID": 0,      "PasswordID": 0,      "SpreaderID": 0,      "Accounts": "15858372841",      "NickName": "15858372841",      "RegAccounts": "",      "UnderWrite": "",      "PassPortID": "",      "Compellation": "",      "LogonPass": "",      "InsurePass": "",      "DynamicPass": "",      "DynamicPassTime": "2018-09-28T22:56:14.3668458+08:00",      "FaceID": 2,      "CustomID": 0,      "Present": 0,      "UserMedal": 0,      "Experience": 0,      "LoveLiness": 0,      "UserRight": 0,      "MasterRight": 0,      "ServiceRight": 0,      "MasterOrder": 0,      "MemberOrder": 0,      "MemberOverDate": "1905-06-02T00:00:00",      "MemberSwitchDate": "2018-09-28T22:56:14.3668458+08:00",      "CustomFaceVer": 0,      "Gender": 1,      "Nullity": 0,      "NullityOverDate": "2018-09-28T22:56:14.3668458+08:00",      "StunDown": 0,      "MoorMachine": 0,      "IsAndroid": 0,      "WebLogonTimes": 0,      "GameLogonTimes": 0,      "PlayTimeCount": 0,      "OnLineTimeCount": 0,      "LastLogonIP": "",      "LastLogonDate": "2018-09-28T22:56:14.3668458+08:00",      "LastLogonMobile": "",      "LastLogonMachine": "",      "RegisterIP": "",      "RegisterDate": "2018-09-28T22:56:14.3668458+08:00",      "RegisterMobile": "",      "RegisterMachine": "",      "UserUin": 0,      "RankID": 0,      "AgentID": 0    }  ]}
+
+----------------------header--------------------------
+
+2018-09-28 22:58:32,938 [17] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 22:58:37,287 [19] INFO  File - actionreguser
+
+----------------------header--------------------------
+
+2018-09-28 22:59:29,939 [5] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 22:59:40,079 [23] INFO  File - actionreguser
+
+2018-09-28 23:00:13,918 [23] INFO  File - parentAccount304302
+
+2018-09-28 23:00:14,268 [23] INFO  File - parentAccount325664
+
+2018-09-28 23:00:24,663 [23] INFO  File - RegUser-message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": [    {      "UserID": 110804,      "GameID": 325665,      "ProtectID": 0,      "PasswordID": 0,      "SpreaderID": 0,      "Accounts": "15858298222",      "NickName": "15858298222",      "RegAccounts": "",      "UnderWrite": "",      "PassPortID": "",      "Compellation": "",      "LogonPass": "",      "InsurePass": "",      "DynamicPass": "",      "DynamicPassTime": "2018-09-28T23:00:20.887946+08:00",      "FaceID": 7,      "CustomID": 0,      "Present": 0,      "UserMedal": 0,      "Experience": 0,      "LoveLiness": 0,      "UserRight": 0,      "MasterRight": 0,      "ServiceRight": 0,      "MasterOrder": 0,      "MemberOrder": 0,      "MemberOverDate": "1905-06-02T00:00:00",      "MemberSwitchDate": "2018-09-28T23:00:20.887946+08:00",      "CustomFaceVer": 0,      "Gender": 1,      "Nullity": 0,      "NullityOverDate": "2018-09-28T23:00:20.887946+08:00",      "StunDown": 0,      "MoorMachine": 0,      "IsAndroid": 0,      "WebLogonTimes": 0,      "GameLogonTimes": 0,      "PlayTimeCount": 0,      "OnLineTimeCount": 0,      "LastLogonIP": "",      "LastLogonDate": "2018-09-28T23:00:20.887946+08:00",      "LastLogonMobile": "",      "LastLogonMachine": "",      "RegisterIP": "",      "RegisterDate": "2018-09-28T23:00:20.887946+08:00",      "RegisterMobile": "",      "RegisterMachine": "",      "UserUin": 0,      "RankID": 0,      "AgentID": 0    }  ]}
+
+----------------------header--------------------------
+
+2018-09-28 23:02:26,422 [56] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-28 23:02:32,337 [62] INFO  File - actionreguser
+
+2018-09-28 23:03:15,299 [62] INFO  File - parentAccount304302
+
+2018-09-28 23:03:15,672 [62] INFO  File - parentAccount325665
+
+2018-09-28 23:03:18,366 [62] INFO  File - RegUser-message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": [    {      "UserID": 110805,      "GameID": 325667,      "ProtectID": 0,      "PasswordID": 0,      "SpreaderID": 0,      "Accounts": "15858298576",      "NickName": "15858298576",      "RegAccounts": "",      "UnderWrite": "",      "PassPortID": "",      "Compellation": "",      "LogonPass": "",      "InsurePass": "",      "DynamicPass": "",      "DynamicPassTime": "2018-09-28T23:03:18.3650971+08:00",      "FaceID": 0,      "CustomID": 0,      "Present": 0,      "UserMedal": 0,      "Experience": 0,      "LoveLiness": 0,      "UserRight": 0,      "MasterRight": 0,      "ServiceRight": 0,      "MasterOrder": 0,      "MemberOrder": 0,      "MemberOverDate": "1905-06-02T00:00:00",      "MemberSwitchDate": "2018-09-28T23:03:18.3650971+08:00",      "CustomFaceVer": 0,      "Gender": 1,      "Nullity": 0,      "NullityOverDate": "2018-09-28T23:03:18.3650971+08:00",      "StunDown": 0,      "MoorMachine": 0,      "IsAndroid": 0,      "WebLogonTimes": 0,      "GameLogonTimes": 0,      "PlayTimeCount": 0,      "OnLineTimeCount": 0,      "LastLogonIP": "",      "LastLogonDate": "2018-09-28T23:03:18.3650971+08:00",      "LastLogonMobile": "",      "LastLogonMachine": "",      "RegisterIP": "",      "RegisterDate": "2018-09-28T23:03:18.3650971+08:00",      "RegisterMobile": "",      "RegisterMachine": "",      "UserUin": 0,      "RankID": 0,      "AgentID": 0    }  ]}

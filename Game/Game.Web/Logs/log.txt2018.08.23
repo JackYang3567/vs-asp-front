@@ -1,0 +1,194 @@
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-23 18:50:25,055 [7] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:50:25,325 [7] INFO  File - {
+  "errormsg": "YB20180823185025092856585",
+  "errorcode": "1"
+}
+
+2018-08-23 18:50:25,326 [7] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-23 18:50:53,113 [15] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:50:53,133 [15] INFO  File - {
+  "errormsg": "YB20180823185053119313121",
+  "errorcode": "1"
+}
+
+2018-08-23 18:50:53,133 [15] INFO  File - 2
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-23 18:51:29,471 [14] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:51:29,655 [14] INFO  File - {
+  "errormsg": "YB20180823185129520787228",
+  "errorcode": "1"
+}
+
+2018-08-23 18:51:29,655 [14] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-23 18:51:42,052 [14] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:51:42,073 [14] INFO  File - {
+  "errormsg": "YB20180823185142061254624",
+  "errorcode": "1"
+}
+
+2018-08-23 18:51:42,073 [14] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-23 18:52:40,182 [22] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:52:40,205 [22] INFO  File - {
+  "errormsg": "YB20180823185240192022874",
+  "errorcode": "1"
+}
+
+2018-08-23 18:52:40,205 [22] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-23 18:52:56,534 [27] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:52:56,556 [27] INFO  File - {
+  "errormsg": "YB20180823185256543111303",
+  "errorcode": "1"
+}
+
+2018-08-23 18:52:56,556 [27] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-23 18:53:13,656 [23] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:53:13,678 [23] INFO  File - {
+  "errormsg": "YB20180823185313665817258",
+  "errorcode": "1"
+}
+
+2018-08-23 18:53:13,678 [23] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-23 18:53:38,915 [30] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:53:38,936 [30] INFO  File - {
+  "errormsg": "YB20180823185338924560406",
+  "errorcode": "1"
+}
+
+2018-08-23 18:53:38,936 [30] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-23 18:54:13,466 [36] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:54:13,487 [36] INFO  File - {
+  "errormsg": "YB20180823185413474935532",
+  "errorcode": "1"
+}
+
+2018-08-23 18:54:13,487 [36] INFO  File - 2
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-23 18:57:03,058 [34] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:57:03,246 [34] INFO  File - {
+  "errormsg": "YB20180823185703109943324",
+  "errorcode": "1"
+}
+
+2018-08-23 18:57:03,247 [34] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-23 18:59:39,419 [29] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:59:39,440 [29] INFO  File - {
+  "errormsg": "YB20180823185939428804441",
+  "errorcode": "1"
+}
+
+2018-08-23 18:59:39,440 [29] INFO  File - 2
+
+----------------------header--------------------------
+
+2018-08-23 18:59:51,208 [32] DEBUG File - CardGold=10
+
+----------------------header--------------------------
+
+2018-08-23 18:59:51,224 [32] INFO  File - {
+  "errormsg": "YB20180823185951216882830",
+  "errorcode": "1"
+}
+
+2018-08-23 18:59:51,224 [32] INFO  File - 2
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-08-23 22:15:11,352 [6] DEBUG File - System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 不能访问网络位置。有关网络排除故障的信息，请参阅 Windows 帮助。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Game.Kernel.DbHelper.ExecuteDataset(CommandType commandType, String commandText, DbParameter[] commandParameters) 位置 d:\Mywork\haotan\yibiyi\Front\Game\Kernel\DbHelper.cs:行号 314
+   在 Game.Data.PlatformDataProvider.GetDataSetBySql(String sql) 位置 d:\Mywork\haotan\yibiyi\Front\Game\Data\PlatformDataProvider.cs:行号 160
+   在 Game.Facade.PlatformFacade.GetDataSetBySql(String sql) 位置 d:\Mywork\haotan\yibiyi\Front\Game\Facade\PlatformFacade.cs:行号 87
+   在 Game.Web.Pay.AddPayOrder.AddOrder(Int32 UserId, Decimal Price, String IPAddress, Int32 priceType, Int32 share) 位置 d:\Mywork\haotan\yibiyi\Front\Game\Game.Web\Pay\AddPayOrder.cs:行号 35
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20
+
+----------------------header--------------------------
+
+2018-08-23 22:15:11,665 [6] INFO  File - {
+  "errormsg": "系统错误",
+  "errorcode": "0"
+}

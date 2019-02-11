@@ -1,0 +1,32 @@
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-09-30 13:07:59,041 [26] INFO  File - actionsendcode
+
+----------------------header--------------------------
+
+2018-09-30 13:08:05,719 [22] INFO  File - actionreguser
+
+2018-09-30 13:09:27,134 [22] INFO  File - parentAccount316100
+
+2018-09-30 13:09:27,163 [22] INFO  File - parentAccount325613
+
+2018-09-30 13:10:14,951 [22] DEBUG File - RegUser-未将对象引用设置到对象的实例。
+
+2018-09-30 13:10:23,954 [22] INFO  File - RegUser-message{  "MessageID": 0,  "Success": true,  "Content": "",  "EntityList": [    {      "UserID": 110827,      "GameID": 325690,      "ProtectID": 0,      "PasswordID": 0,      "SpreaderID": 0,      "Accounts": "15858298571",      "NickName": "15858298571",      "RegAccounts": "",      "UnderWrite": "",      "PassPortID": "",      "Compellation": "",      "LogonPass": "",      "InsurePass": "",      "DynamicPass": "",      "DynamicPassTime": "2018-09-30T13:10:21.1517335+08:00",      "FaceID": 0,      "CustomID": 0,      "Present": 0,      "UserMedal": 0,      "Experience": 0,      "LoveLiness": 0,      "UserRight": 0,      "MasterRight": 0,      "ServiceRight": 0,      "MasterOrder": 0,      "MemberOrder": 0,      "MemberOverDate": "1905-06-02T00:00:00",      "MemberSwitchDate": "2018-09-30T13:10:21.1517335+08:00",      "CustomFaceVer": 0,      "Gender": 1,      "Nullity": 0,      "NullityOverDate": "2018-09-30T13:10:21.1517335+08:00",      "StunDown": 0,      "MoorMachine": 0,      "IsAndroid": 0,      "WebLogonTimes": 0,      "GameLogonTimes": 0,      "PlayTimeCount": 0,      "OnLineTimeCount": 0,      "LastLogonIP": "",      "LastLogonDate": "2018-09-30T13:10:21.1517335+08:00",      "LastLogonMobile": "",      "LastLogonMachine": "",      "RegisterIP": "",      "RegisterDate": "2018-09-30T13:10:21.1517335+08:00",      "RegisterMobile": "",      "RegisterMachine": "",      "UserUin": 0,      "RankID": 0,      "AgentID": 0    }  ]}
+
+----------------------header--------------------------
+
+----------------------header--------------------------
+
+2018-09-30 22:58:10,506 [14] INFO  File - actionsendcode
+
+2018-09-30 22:58:19,606 [14] INFO  File - 手机验证码{  "phone": "15885298572",  "code": "751911"}
+
+----------------------header--------------------------
+
+2018-09-30 22:59:05,517 [8] INFO  File - actionsendcode
+
+2018-09-30 22:59:05,901 [8] INFO  File - 手机验证码{  "phone": "15858298572",  "code": "671526"}

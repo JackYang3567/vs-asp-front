@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width:321px ) and (max-width: 360px) {
+    html {
+        font-size: 28px;
+    }
+}
+@media only screen and (min-width:361px ) and (max-width: 479px) {
+    html {
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width:480px ) and (max-width: 719px) {
+    html {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width:720px ) and (max-width: 800px) {
+    html {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+    html {
+        font-size: 70px;
+    }
+}
+body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, textarea, form, select, fieldset, table, td, div, input {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    outline: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #333;
+    text-align: center;
+    font: 12px;
+    font-family: "微软雅黑";
+}
+ul, ol, li {
+    list-style-type: none;
+}
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+/*付款方式start*/
+.pay-html {
+    width: 100%;
+    min-height: 100%;
+    background: #10100f url("../Image/pay_main_bg.png") repeat;
+}
+.pay-header {
+    width: 100%;
+    height: 2rem;
+    background: url("../Image/pay_header_bg.png") no-repeat;
+    background-size: 100% 100%;
+    color: #ffe37e;
+    text-align: center;
+    line-height: 2rem;
+}
+.pay-header img {
+    display: block;
+    width: 8.742rem;
+    height: 2rem;
+    margin: 0 auto;
+}
+.pay-main {
+    width: 100%;
+    padding-bottom: .2rem;
+}
+.pay-main p {
+    margin: 1rem auto 1rem;
+    color: #fff;
+    font-size: .857rem;
+    text-align: center;
+}
+.pay-main-list {
+    width: 80.62%;
+    margin: 0 auto .2rem;
+    padding: 1.0rem 5%;
+    background-color: #272626;
+    border: 1px solid #858a34;
+}
+.pay-main-list li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pay-main-list li a {
+    display: block;
+    width: 100%;
+    color: #9C9267;
+    text-decoration: none;
+}
+.pay-main-list img {
+    width: 65%;
+    height: 3.5rem;
+    margin: 0 auto;
+}
+.pay-main-list span {
+    display: block;
+    width: 80%;
+    height: 1.1rem;
+    margin: 0 auto;
+    border: 1px solid #a39b78;
+    line-height: 1.1rem;
+    font-size: .6rem;
+    text-align: center;
+    border-radius: 10px 10px;
+}
+.pay-prompt {
+    width: 80.62%;
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+    color: #fff;
+    font-size: .5rem;
+    text-align: center;
+}
+.pay-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.885rem;
+    background-color: #000;
+}
+.pay-footer p {
+    line-height: 1.885rem;
+    color: #6f6f6f;
+    text-align: center;
+    font-size: .685rem;
+}
+/*付款方式end*/
