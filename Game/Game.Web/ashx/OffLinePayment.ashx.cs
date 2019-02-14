@@ -43,7 +43,7 @@ namespace Game.Web.ashx
            
           this.AddOffLinePaymentInfo(context);
            context.Response.ContentType = "text/plain";
-           context.Response.Write("操作成功！");
+           context.Response.Write("订单提交成功！");
            /*
            string s = string.Empty;
            try
@@ -97,11 +97,11 @@ namespace Game.Web.ashx
             OffLinePayOrdersInfo.BankName = this.bankName;
 
             context.Response.ContentType = "text/plain";
-            context.Response.Write("OffLinePayOrdersInfo.Accounts: " + OffLinePayOrdersInfo.Accounts + "\r\n");
-            context.Response.Write("OffLinePayOrdersInfo.PayAmount: " + OffLinePayOrdersInfo.PayAmount + "\r\n");
-            context.Response.Write("OffLinePayOrdersInfo.OrderID: " + OffLinePayOrdersInfo.OrderID + "\r\n");
-            context.Response.Write("OffLinePayOrdersInfo.ApplyDate: " + OffLinePayOrdersInfo.ApplyDate + "\r\n");
-            context.Response.Write("OffLinePayOrdersInfo.PaymentType: " + OffLinePayOrdersInfo.PaymentType + "\r\n");
+            //context.Response.Write("OffLinePayOrdersInfo.Accounts: " + OffLinePayOrdersInfo.Accounts + "\r\n");
+            //context.Response.Write("OffLinePayOrdersInfo.PayAmount: " + OffLinePayOrdersInfo.PayAmount + "\r\n");
+            //context.Response.Write("OffLinePayOrdersInfo.OrderID: " + OffLinePayOrdersInfo.OrderID + "\r\n");
+            //context.Response.Write("OffLinePayOrdersInfo.ApplyDate: " + OffLinePayOrdersInfo.ApplyDate + "\r\n");
+            //context.Response.Write("OffLinePayOrdersInfo.PaymentType: " + OffLinePayOrdersInfo.PaymentType + "\r\n");
 
           //  shareDetialInfo.ShareID = 100;
             TreasureFacade treasureFacade = new TreasureFacade();

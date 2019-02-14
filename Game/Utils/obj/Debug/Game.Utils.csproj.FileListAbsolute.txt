@@ -24,4 +24,3 @@ D:\works\网站代码3\Front\Game\Utils\obj\Debug\Game.Utils.Properties.Resource
 D:\works\网站代码3\Front\Game\Utils\obj\Debug\Game.Utils.csproj.GenerateResource.Cache
 D:\works\网站代码3\Front\Game\Utils\obj\Debug\Game.Utils.dll
 D:\works\网站代码3\Front\Game\Utils\obj\Debug\Game.Utils.pdb
-D:\works\网站代码3\Front\Game\Utils\obj\Debug\Game.Utils.csprojResolveAssemblyReference.cache

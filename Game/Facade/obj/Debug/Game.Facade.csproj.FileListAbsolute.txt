@@ -34,7 +34,6 @@ D:\qipai\bl\src\网站代码\Front\Game\Facade\bin\Debug\zh-Hans\System.Net.Http
 D:\qipai\bl\src\网站代码\Front\Game\Facade\obj\Debug\Game.Facade.csprojResolveAssemblyReference.cache
 D:\qipai\bl\src\网站代码\Front\Game\Facade\obj\Debug\Game.Facade.dll
 D:\qipai\bl\src\网站代码\Front\Game\Facade\obj\Debug\Game.Facade.pdb
-D:\works\网站代码3\Front\Game\Facade\obj\Debug\Game.Facade.csprojResolveAssemblyReference.cache
 D:\works\网站代码3\Front\Game\Facade\bin\Debug\Game.Facade.dll
 D:\works\网站代码3\Front\Game\Facade\bin\Debug\Game.Facade.pdb
 D:\works\网站代码3\Front\Game\Facade\bin\Debug\Game.Data.dll
@@ -49,5 +48,6 @@ D:\works\网站代码3\Front\Game\Facade\bin\Debug\Game.Entity.pdb
 D:\works\网站代码3\Front\Game\Facade\bin\Debug\Game.IData.pdb
 D:\works\网站代码3\Front\Game\Facade\bin\Debug\Game.Kernel.pdb
 D:\works\网站代码3\Front\Game\Facade\bin\Debug\Game.Utils.pdb
+D:\works\网站代码3\Front\Game\Facade\obj\Debug\Game.Facade.csprojResolveAssemblyReference.cache
 D:\works\网站代码3\Front\Game\Facade\obj\Debug\Game.Facade.dll
 D:\works\网站代码3\Front\Game\Facade\obj\Debug\Game.Facade.pdb

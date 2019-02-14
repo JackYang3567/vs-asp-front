@@ -64,117 +64,37 @@
             <div class="f_ar">
                 <div class="f_m1">支付类型</div>
 
-                <div class="f_m2">
-                    <label for="rad_57">
-                        <p>
-                            <img src="/images/WEIXINAPP.jpg" alt="">
-                            <span>微信一键支付</span>
-                            <em>（1~50000）</em>
-                        </p>
-                        <input type="radio" name="radzhif_code" id="rad_57" tcode="WEIXINAPP" value="57" class="regular-radio" checked limitlow="500.00" limithigh="10000.00" /><label for="radio-1-2" class="showlabel"></label>
-                    </label>
-                </div>
-
+              
                 <div class="f_m2">
                     <label for="rad_59">
                         <p>
-                            <img src="/images/WEIXINWAP.jpg" alt="">
+                            <img src="/images/WXSM.jpg" alt="">
                             <span>微信扫码</span>
-                            <em>（1~50000）</em>
+                            <em>（20~1888）</em>
                         </p>
                         <input type="radio" name="radzhif_code" id="rad_59" tcode="WEIXINWAP" value="59" class="regular-radio" limitlow="500.00" limithigh="10000.00" /><label for="radio-1-2" class="showlabel"></label>
                     </label>
                 </div>
-
                 <div class="f_m3" id="wx_scan" style="display:none">
-                    <img src="/images/ali-pay-qrcode.png">
+                    <img src="http://58.82.230.24:3001/Content/Upload/OffLinePayQrCode/Weixin_QrCode.png">
                 </div>
-
-                <div class="f_m2">
-                    <label for="rad_75">
-                        <p>
-                            <img src="/images/UNIONPAYWAP.jpg" alt="">
-                            <span>银联钱包扫码</span>
-                            <em>（1~50000）</em>
-                        </p>
-                        <input type="radio" name="radzhif_code" id="rad_75" tcode="UNIONPAYWAP" value="75" class="regular-radio" limitlow="10.00" limithigh="4500.00" /><label for="radio-1-2" class="showlabel"></label>
-                    </label>
-                </div>
-                <div class="f_m3" id="union_scan" style="display:none">
-                    <img src="/images/ali-pay-qrcode.png">
-                </div>
-
+               
 
                 <div class="f_m2">
                     <label for="rad_58">
                         <p>
-                            <img src="/images/ALIPAYWAP.jpg" alt="">
+                            <img src="/images/ZFBSM.jpg" alt="">
                             <span>支付宝扫码</span>
-                            <em>（1~50000）</em>
+                            <em>（100~3000）</em>
                         </p>
                         <input type="radio" name="radzhif_code" id="rad_58" tcode="ALIPAYWAP" value="58" class="regular-radio" limitlow="10.00" limithigh="10000.00" /><label for="radio-1-2" class="showlabel"></label>
                     </label>
                 </div>
 
                 <div class="f_m3" id="ali_scan" style="display:none">
-                    <img src="/images/ali-pay-qrcode.png">
+                    <img src="http://58.82.230.24:3001/Content/Upload/OffLinePayQrCode/Ali_QrCode.png">
                 </div>
 
-
-                <div class="f_m3" id="d_bank" style="display:none">
-                    <select name="radbank" id="radbank" class="select_ipt">
-                        <option value="0">请选择银行</option>
-
-                        <option value="1">工商银行</option>
-
-                        <option value="2">招商银行</option>
-
-                        <option value="3">农业银行</option>
-
-                        <option value="4">建设银行</option>
-
-                        <option value="5">北京银行</option>
-
-                        <option value="6">中国银行</option>
-
-                        <option value="7">交通银行</option>
-
-                        <option value="8">兴业银行</option>
-
-                        <option value="9">南京银行</option>
-
-                        <option value="10">民生银行</option>
-
-                        <option value="11">光大银行</option>
-
-                        <option value="12">平安银行</option>
-
-                        <option value="13">渤海银行</option>
-
-                        <option value="14">东亚银行</option>
-
-                        <option value="15">宁波银行</option>
-
-                        <option value="16">中信银行</option>
-
-                        <option value="17">广发银行</option>
-
-                        <option value="18">上海银行</option>
-
-                        <option value="19">上海浦东发展银行</option>
-
-                        <option value="20">中国邮政</option>
-
-                        <option value="21">华夏银行</option>
-
-                        <option value="22">北京农村商业银行</option>
-
-                        <option value="23">上海农商银行</option>
-
-                        <option value="43">深圳发展银行</option>
-
-                    </select>
-                </div>
                 <div class="m_at">
                     <span>会员账号</span>
                     <input type="text" class="select_ipt" name="username" id="username" placeholder="(填写您的会员账号，否则无法即时到账)" onpaste="return false" onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9\_]/g,'')" />

@@ -47,7 +47,6 @@ D:\qipai\bl\src\网站代码\Front\Game\Game.Web\bin\Game.Data.pdb
 D:\qipai\bl\src\网站代码\Front\Game\Game.Web\obj\Debug\Game.Web.csprojResolveAssemblyReference.cache
 D:\qipai\bl\src\网站代码\Front\Game\Game.Web\obj\Debug\Game.Web.dll
 D:\qipai\bl\src\网站代码\Front\Game\Game.Web\obj\Debug\Game.Web.pdb
-D:\works\网站代码3\Front\Game\Game.Web\obj\Debug\Game.Web.csprojResolveAssemblyReference.cache
 D:\works\网站代码3\Front\Game\Game.Web\bin\Game.Web.dll.config
 D:\works\网站代码3\Front\Game\Game.Web\bin\Game.Web.dll
 D:\works\网站代码3\Front\Game\Game.Web\bin\Game.Web.pdb
@@ -70,5 +69,6 @@ D:\works\网站代码3\Front\Game\Game.Web\bin\Game.Kernel.pdb
 D:\works\网站代码3\Front\Game\Game.Web\bin\Game.Utils.pdb
 D:\works\网站代码3\Front\Game\Game.Web\bin\Game.IData.pdb
 D:\works\网站代码3\Front\Game\Game.Web\bin\Game.Data.pdb
+D:\works\网站代码3\Front\Game\Game.Web\obj\Debug\Game.Web.csprojResolveAssemblyReference.cache
 D:\works\网站代码3\Front\Game\Game.Web\obj\Debug\Game.Web.dll
 D:\works\网站代码3\Front\Game\Game.Web\obj\Debug\Game.Web.pdb

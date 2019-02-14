@@ -48,6 +48,9 @@
     <File Include="ashx/OffLinePayment.ashx">
       <publishTime>01/22/2019 16:23:57</publishTime>
     </File>
+    <File Include="ashx/PayQrCodeIcon.ashx">
+      <publishTime>02/14/2019 13:05:28</publishTime>
+    </File>
     <File Include="bin/AspNetPager.dll">
       <publishTime>08/06/2018 15:58:01</publishTime>
     </File>
@@ -55,25 +58,25 @@
       <publishTime>08/06/2018 15:58:01</publishTime>
     </File>
     <File Include="bin/Game.Data.dll">
-      <publishTime>02/11/2019 10:54:02</publishTime>
+      <publishTime>02/14/2019 10:20:42</publishTime>
     </File>
     <File Include="bin/Game.Entity.dll">
-      <publishTime>02/11/2019 10:54:02</publishTime>
+      <publishTime>02/14/2019 10:20:42</publishTime>
     </File>
     <File Include="bin/Game.Facade.dll">
-      <publishTime>02/11/2019 10:54:03</publishTime>
+      <publishTime>02/14/2019 10:20:43</publishTime>
     </File>
     <File Include="bin/Game.IData.dll">
-      <publishTime>02/11/2019 10:54:02</publishTime>
+      <publishTime>02/14/2019 10:20:42</publishTime>
     </File>
     <File Include="bin/Game.Kernel.dll">
-      <publishTime>02/11/2019 10:54:02</publishTime>
+      <publishTime>02/14/2019 10:20:42</publishTime>
     </File>
     <File Include="bin/Game.Utils.dll">
-      <publishTime>02/11/2019 10:54:02</publishTime>
+      <publishTime>02/14/2019 10:20:42</publishTime>
     </File>
     <File Include="bin/Game.Web.dll">
-      <publishTime>02/11/2019 10:54:04</publishTime>
+      <publishTime>02/14/2019 17:46:20</publishTime>
     </File>
     <File Include="bin/JRAPI_NET_DEMO.dll">
       <publishTime>04/11/2018 13:23:54</publishTime>
@@ -13401,6 +13404,9 @@
     <File Include="images/wwww.nanxiqu.com.png">
       <publishTime>08/08/2018 09:05:51</publishTime>
     </File>
+    <File Include="images/WXSM.jpg">
+      <publishTime>02/14/2019 14:18:20</publishTime>
+    </File>
     <File Include="images/wzvmauuqtswrvdx.linquansuo.com.png">
       <publishTime>08/08/2018 09:05:51</publishTime>
     </File>
@@ -13430,6 +13436,9 @@
     </File>
     <File Include="images/zfb.png">
       <publishTime>08/08/2018 09:05:51</publishTime>
+    </File>
+    <File Include="images/ZFBSM.jpg">
+      <publishTime>02/14/2019 14:18:58</publishTime>
     </File>
     <File Include="images/ztgw168.com.png">
       <publishTime>08/08/2018 09:05:51</publishTime>
@@ -15172,7 +15181,10 @@
       <publishTime>08/08/2018 09:49:33</publishTime>
     </File>
     <File Include="Pay/JFTH5/OffLinePayOrder.html">
-      <publishTime>01/24/2019 10:00:51</publishTime>
+      <publishTime>02/14/2019 17:40:04</publishTime>
+    </File>
+    <File Include="Pay/JFTH5/_OffLinePayOrder - 复制.html">
+      <publishTime>02/14/2019 09:43:49</publishTime>
     </File>
     <File Include="Pay/jifubao/notify_url.aspx">
       <publishTime>08/08/2018 09:49:34</publishTime>
