@@ -61,10 +61,39 @@
             </div>
             <!--滚动条-->
 
-            <div class="f_ar">
-                <div class="f_m1">支付类型</div>
+            <div class="f_ar" id="pay_div">
+                <div class="f_ar" id="pay_div">
+                    <div class="f_m1">支付类型</div>
+                    <div class="f_m2">
+                        <label for="rad_58">
+                            <p>
+                                <img src="/images/ZFBSM.jpg" alt="">
+                                <span>支付宝扫码</span>
+                                <em>（100~3000）</em>
+                            </p>
+                            <input type="radio" name="radzhif_code" id="rad_58" tcode="ALIPAYWAP" value="58" class="regular-radio" limitlow="100" limithigh="3000"><label for="radio-1-2" class="showlabel"></label>
+                        </label>
+                    </div>
+                    <div class="f_m3" id="ali_scan" style="display:none">
+                        <img src="http://58.82.230.24:3001/Content/Upload/OffLinePayQrCode/Ali_QrCode.png">
+                    </div>
+                    <div class="f_m2">
+                        <label for="rad_59">
+                            <p>
+                                <img src="/images/WXSM.jpg" alt="">
+                                <span>微信扫码</span>
+                                <em>（20~1888）</em>
+                            </p>
+                            <input type="radio" name="radzhif_code" id="rad_59" tcode="WEIXINWAP" value="59" class="regular-radio" limitlow="20" limithigh="1888"><label for="radio-1-2" class="showlabel"></label>
+                        </label>
+                    </div>
+                    <div class="f_m3" id="wx_scan" style="display:none">
+                        <img src="http://58.82.230.24:3001/Content/Upload/OffLinePayQrCode/Weixin_QrCode.png">
+                    </div>
+                </div>
+                <!--<div class="f_m1">支付类型</div>
 
-              
+
                 <div class="f_m2">
                     <label for="rad_59">
                         <p>
@@ -78,7 +107,7 @@
                 <div class="f_m3" id="wx_scan" style="display:none">
                     <img src="http://58.82.230.24:3001/Content/Upload/OffLinePayQrCode/Weixin_QrCode.png">
                 </div>
-               
+
 
                 <div class="f_m2">
                     <label for="rad_58">
@@ -93,8 +122,9 @@
 
                 <div class="f_m3" id="ali_scan" style="display:none">
                     <img src="http://58.82.230.24:3001/Content/Upload/OffLinePayQrCode/Ali_QrCode.png">
-                </div>
-
+                </div>-->
+            </div>
+            <div class="f_ar">
                 <div class="m_at">
                     <span>会员账号</span>
                     <input type="text" class="select_ipt" name="username" id="username" placeholder="(填写您的会员账号，否则无法即时到账)" onpaste="return false" onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9\_]/g,'')" />
@@ -114,7 +144,7 @@
                 </div>
                 <div class="m_at">
                     <span>转账单号</span>
-                    <input type="text" class="select_ipt" name="orderid" id="orderid"  placeholder="(输入您转账单号的最后4位数字)" onkeyup="value=this.value.replace(/\D+/g,'')" />
+                    <input type="text" class="select_ipt" name="orderid" id="orderid" placeholder="(输入您转账单号的最后4位数字)" onkeyup="value=this.value.replace(/\D+/g,'')" />
                     <span class="copy_color"><a href="javascript:;" onclick="copyInputText('orderid')">复制</a> </span>
                 </div>
                 <div class="m_at">
@@ -122,8 +152,8 @@
                     <input type="text" class="select_ipt" name="P_Time" id="P_Time" value="" />
                     <span class="copy_color"><a href="javascript:;" onclick="copyInputText('P_Time')">复制</a> </span>
                 </div>
-                
-                <input type="hidden" class="select_ipt" name="PaymentType" id="PaymentType"  />
+
+                <input type="hidden" class="select_ipt" name="PaymentType" id="PaymentType" />
                 <div class="f_m4"><a href="javascript:;" onclick="btnOK_zf_onclick();">确认支付</a></div>
             </div>
             <div class="sp_n">
@@ -141,6 +171,65 @@
 <script type="text/javascript">
     var payLimit_low = 1;
     var payLimit_high = 0;
+
+    function loadPage() {
+        var postData = {};//搜索条件
+
+        postData.pageSize = 100;
+        postData.pageIndex = 1;
+       
+        var url = "/ashx/PayQrCodeIcon.ashx";
+        $.ajax({
+            type: "POST",     //提交方式 
+            url: url,         //路径 
+            data: postData,   //数据，这里使用的是Json格式进行传输 
+            dataType: 'json',
+            async: 'true',    //异步
+            success: function (retdata) {//返回数据根据结果进行相应的处理 
+                console.log(retdata);
+                var data = retdata.Rows;
+                console.log(data);
+                var payStr = ' <div class="f_m1">支付类型</div>\n';
+                for (i = 0; i < data.length; i++) {
+
+                    var rad_id = "";
+                    var _tcode = "";
+                    var _value = "";
+                    var _scan_id = "";
+                    if(parseInt( data[i].ID)==5){
+                        rad_id = "rad_59";
+                        _tcode = "WEIXINWAP";
+                        _value = 59;
+                        _scan_id = "wx_scan";
+                    }
+                    if (parseInt(data[i].ID) == 4) {
+                        rad_id = "rad_58";
+                        _tcode = "ALIPAYWAP";
+                        _value = 58;
+                        _scan_id = "ali_scan";
+                    }
+
+                    var limitStr = '（' + data[i].minLimit + '~' + data[i].maxLimit + '）';
+                    payStr += '<div class="f_m2" onclick="selctPayment();">\n';
+                    payStr += '     <label for="' + rad_id + '">\n';
+                    payStr += '          <p>\n';
+                    payStr += '              <img src="/images/' + data[i].QudaoCode + '.jpg" alt="">\n';
+                    payStr += '              <span>' + data[i].QudaoName + '</span>\n';
+                    payStr += '              <em>' + limitStr + '</em>\n';
+                    payStr += '          </p>\n';
+                    payStr += '         <input type="radio"  onclick="selctPayment();"  name="radzhif_code" id="' + rad_id + '" tcode="' + _tcode + '" value="' + _value + '" class="regular-radio" limitlow="' + data[i].minLimit + '" limithigh="' + data[i].maxLimit + '" /><label for="radio-1-2"  class="showlabel"></label>\n';
+                    payStr += '     </label>\n';
+                    payStr += '</div>\n';
+
+                    payStr += '<div class="f_m3" id="' + _scan_id + '" style="display:none">\n';
+                    payStr += '     <img src="http://58.82.230.24:3001/Content/Upload/OffLinePayQrCode/' + data[i].IconPath + '">\n';
+                    payStr += '</div>\n';
+                }
+               
+                $("#pay_div").html(payStr);
+            }
+        });
+    }
 
     function getQueryString(name) {
         var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
@@ -183,11 +272,15 @@
     }
 
     $(function () {
+        loadPage();
         $("#username").val(getQueryString('account'))
         $("#rusername").val(getQueryString('account'))
         $("#coin").val(getQueryString('amount'))
         var time = getNowFormatDate();
         $('#P_Time').val(time);
+    });
+
+    function selctPayment() {
         $(".showlabel").click(function () {
             $(this).prev().attr("checked", "true");
             $(this).prev().change();
@@ -195,10 +288,8 @@
         $("input[name='radzhif_code']").change(function () {
             var code = $("input[name='radzhif_code']:checked").val();
             var tcode = $("input[name='radzhif_code']:checked").attr("tcode");
-            // var t_id = $("input[name='radzhif_code']:checked").attr("id");
-          
+
             if (code != "0") {
-              
                 if (parseInt(code) == 59) {
                     $("#PaymentType").val(5);
                 }
@@ -217,7 +308,7 @@
                 }
             }
 
-          
+
             if (tcode == "UNIONPAYWAP") {
                 $("#d_bank").show();
                 $("#union_scan").show()
@@ -225,7 +316,6 @@
             else {
                 $("#d_bank").hide();
                 $("#union_scan").hide();
-              
             }
             if (tcode == 'WEIXINWAP') {
                 $("#wx_scan").show()
@@ -233,23 +323,19 @@
             }
             else {
                 $("#wx_scan").hide();
-              
             }
 
 
             if (tcode == 'ALIPAYWAP') {
-               
                 $("#ali_scan").show()
                 $("#PaymentType").val(4);
-              
             } else {
                 $("#ali_scan").hide();
-               
             }
         });
-        $("input[name='radzhif_code']").change();
-
-    })
+        //  $("input[name='radzhif_code']").change();
+    }
+  
     function btnOK_zf_onclick() {
         var username = $("#username").val();
         var PerSonGuid = $("#PerSonGuid").val();

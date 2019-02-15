@@ -5,8 +5,11 @@ using Game.Utils;
 using System;
 using System.Reflection;
 using System.Text.RegularExpressions;
+//using Newtonsoft.Json;
+using System.Data;
 using System.Web;
 using System.Web.SessionState;
+
 using System.Text;
 
 namespace Game.Web.ashx
@@ -21,12 +24,11 @@ namespace Game.Web.ashx
         {
             context.Response.ContentType = "text/plain";
           //context.Response.Write("Hello World");
+            TreasureFacade treasureFacade = new TreasureFacade();
+            DataTable offPayQrCodeList = treasureFacade.GetOffPayQrCodeInfo();
 
-            string json = "[{\"ID\":4,\"IconPath\":\"Ali_QrCode.png\",\"QudaoName\":\"支付宝扫码\",\"QudaoCode\":\"ZFBSM\",\"maxLimit\":3000.0,\"minLimit\":100.0},";
-            json += "{\"ID\":5,\"IconPath\":\"Weixin_QrCode.png\",\"QudaoName\":\"微信扫码\",\"QudaoCode\":\"WXSM\",\"maxLimit\":1888.0,\"minLimit\":20.0}";
-            json += "]";
-      
-           
+            string json = DataTableToJson(offPayQrCodeList);
+
             context.Response.Write(json);
         }
 
@@ -36,6 +38,31 @@ namespace Game.Web.ashx
             {
                 return false;
             }
+        }
+
+        public static string DataTableToJson(DataTable dt)
+        {
+            StringBuilder jsonBuilder = new StringBuilder();
+            jsonBuilder.Append("{\"Name\":\"" + dt.TableName + "\",\"Rows");
+            jsonBuilder.Append("\":[");
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                jsonBuilder.Append("{");
+                for (int j = 0; j < dt.Columns.Count; j++)
+                {
+                    jsonBuilder.Append("\"");
+                    jsonBuilder.Append(dt.Columns[j].ColumnName);
+                    jsonBuilder.Append("\":\"");
+                    jsonBuilder.Append(dt.Rows[i][j].ToString().Replace("\"", "\\\""));
+                    jsonBuilder.Append("\",");
+                }
+                jsonBuilder.Remove(jsonBuilder.Length - 1, 1);
+                jsonBuilder.Append("},");
+            }
+            jsonBuilder.Remove(jsonBuilder.Length - 1, 1);
+            jsonBuilder.Append("]");
+            jsonBuilder.Append("}");
+            return jsonBuilder.ToString();
         }
     }
 }

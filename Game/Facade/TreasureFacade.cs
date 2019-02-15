@@ -7,11 +7,14 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
+using System.Text;
 namespace Game.Facade
 {
 	public class TreasureFacade
 	{
 		private ITreasureDataProvider treasureData;
+       
+
 		public TreasureFacade()
 		{
 			this.treasureData = ClassFactory.GetITreasureDataProvider();
@@ -96,6 +99,14 @@ namespace Game.Facade
 			string sqlQuery = "SELECT TOP 1 * FROM View_PayInfo WHERE Nullity=0 AND QudaoID=" + qudaoId + " ORDER BY NEWID()";
 			return this.treasureData.GetDataSetByWhere(sqlQuery).Tables[0];
 		}
+
+        public DataTable GetOffPayQrCodeInfo()
+        {
+            string sqlQuery = "SELECT * FROM View_OffLinePayQrCode";
+            return this.treasureData.GetDataSetByWhere(sqlQuery).Tables[0];
+          
+        }
+
 		public PagerSet GetPayRecord(string whereQuery, int pageIndex, int pageSize)
 		{
 			return this.treasureData.GetPayRecord(whereQuery, pageIndex, pageSize);

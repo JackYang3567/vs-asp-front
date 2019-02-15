@@ -64,7 +64,7 @@
       <publishTime>02/14/2019 10:20:42</publishTime>
     </File>
     <File Include="bin/Game.Facade.dll">
-      <publishTime>02/14/2019 10:20:43</publishTime>
+      <publishTime>02/15/2019 10:57:55</publishTime>
     </File>
     <File Include="bin/Game.IData.dll">
       <publishTime>02/14/2019 10:20:42</publishTime>
@@ -76,7 +76,7 @@
       <publishTime>02/14/2019 10:20:42</publishTime>
     </File>
     <File Include="bin/Game.Web.dll">
-      <publishTime>02/14/2019 17:46:20</publishTime>
+      <publishTime>02/15/2019 10:57:56</publishTime>
     </File>
     <File Include="bin/JRAPI_NET_DEMO.dll">
       <publishTime>04/11/2018 13:23:54</publishTime>
@@ -15181,7 +15181,7 @@
       <publishTime>08/08/2018 09:49:33</publishTime>
     </File>
     <File Include="Pay/JFTH5/OffLinePayOrder.html">
-      <publishTime>02/14/2019 17:40:04</publishTime>
+      <publishTime>02/15/2019 10:56:00</publishTime>
     </File>
     <File Include="Pay/JFTH5/_OffLinePayOrder - 复制.html">
       <publishTime>02/14/2019 09:43:49</publishTime>
@@ -15721,7 +15721,7 @@
       <publishTime>08/08/2018 10:07:00</publishTime>
     </File>
     <File Include="UserService/PayIndex.aspx">
-      <publishTime>08/08/2018 10:07:01</publishTime>
+      <publishTime>02/15/2019 10:13:46</publishTime>
     </File>
     <File Include="UserService/UserService1.aspx">
       <publishTime>08/08/2018 10:07:02</publishTime>
