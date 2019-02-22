@@ -19,18 +19,16 @@ namespace Game.Web.ashx
     /// </summary>
     public class PayQrCodeIcon : System.Web.IHttpHandler, System.Web.SessionState.IRequiresSessionState
     {
-
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "text/plain";
-          //context.Response.Write("Hello World");
+            //context.Response.Write("Hello World");
             TreasureFacade treasureFacade = new TreasureFacade();
             DataTable offPayQrCodeList = treasureFacade.GetOffPayQrCodeInfo();
-
             string json = DataTableToJson(offPayQrCodeList);
-
             context.Response.Write(json);
         }
+
 
         public bool IsReusable
         {
@@ -39,6 +37,7 @@ namespace Game.Web.ashx
                 return false;
             }
         }
+
 
         public static string DataTableToJson(DataTable dt)
         {
